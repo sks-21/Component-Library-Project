@@ -1,0 +1,46 @@
+/* Style guide */
+
+/* || Reset */
+*{
+    border:0;
+    box-sizing: border-box;
+    margin: 0 ;
+    padding: 0 ;
+}
+
+/* || Typography  */
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap');
+
+
+/* || Root */
+:root{
+
+ --primary-color: #3b82f6 ;
+ --secondary-color: #93c5fd ; 
+
+ --red: #dc2626;
+ --green: #16a34a;
+ --yellow: #facc15;
+
+ font-family: 'Roboto', sans-serif;
+
+}
+
+
+/* || Spacing */
+
+/* || Imagery */
+img, 
+video, 
+iframe {
+
+max-inline-size: 100%; /* same */
+block-size: auto;  /* same */
+/* aspect-ratio:2/1; according to use */
+/* object-fit: contain | cover;  according to use */
+/* object-position: top center  according to use */
+
+}
+
+/* || Media queries */
+
