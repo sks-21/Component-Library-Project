@@ -1,0 +1,211 @@
+/* Style guide */
+
+/* || Reset */
+
+*,
+::after,
+::before {
+  box-sizing: border-box;
+}
+* {
+  border: 0;
+  margin: 0;
+  padding: 0;
+}
+
+/* || Typography  */
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+
+/* || Root */
+:root {
+  font-family: "Roboto", sans-serif;
+  font-size: 62.5%;
+
+  /* Colors */
+  --color-primary: #05445e; /*Navy Blue*/
+  --color-primary-dark: #043246; /* #02212e*/
+  --color-primary-light: #ddf3f8;
+  --color-primary-hover: #dbeafe;
+
+  --color-secondary: #075f83;
+  --color-text: #374151;
+  --color-background: #edf9fe;
+  --color-navbar: #eef4f5;
+
+  --color-gray: #6b7280;
+  --color-gray-dark: #4b5563;
+  --color-gray-light: #e5e7eb;
+
+  --color-green: #16a34a;
+  --color-green-dark: #14532d;
+  --color-green-light: #d9f99d;
+
+  --color-pink: #db2777;
+  --color-pink-dark: #be185d;
+
+  --color-red: #ef4444;
+  --color-red-dark: #b91c1c;
+  --color-red-light: #fecaca;
+
+  --color-offwhite: #d1d5db;
+  --color-orange: #f97316;
+
+  --color-yellow: #facc15;
+  --color-yellow-dark: #a16207;
+  --color-yellow-hover: #eab308;
+  --color-yellow-light: #fef08a;
+
+  --color-violet: #8b5cf6;
+  --color-violet-dark: #6d28d9;
+
+  --color-black: #000000;
+  --color-white: #ffffff;
+}
+
+.bg-primary {
+  background-color: var(--color-primary);
+}
+.bg-secondary {
+  background-color: var(--color-secondary);
+}
+
+.bg-red {
+  background-color: var(--color-red);
+}
+
+.bg-green {
+  background-color: var(--color-green);
+}
+
+.bg-green-dark {
+  background-color: var(--color-green-dark);
+}
+
+.bg-yellow {
+  background-color: var(--color-yellow);
+}
+
+.bg-orange {
+  background-color: var(--color-orange);
+}
+
+.bg-violet {
+  background-color: var(--color-violet);
+}
+
+.bg-gray {
+  background-color: var(--color-gray);
+}
+.bg-pink {
+  background-color: var(--color-pink);
+}
+
+/* ||Hover classes */
+.bg-green-hover {
+  background-color: var(--color-green);
+}
+
+.bg-green-hover:hover {
+  background-color: #15803d;
+}
+
+.bg-grey-hover {
+  background-color: var(--color-gray);
+}
+.bg-grey-hover:hover {
+  background-color: var(--color-gray-dark);
+}
+.bg-pink-hover {
+  background-color: var(--color-pink);
+}
+
+.bg-pink-hover:hover {
+  background-color: var(--color-pink-dark);
+}
+
+.bg-red-hover {
+  background-color: var(--color-red);
+}
+.bg-red-hover:hover {
+  background-color: var(--color-red-dark);
+}
+
+.bg-yellow-hover {
+  background-color: var(--color-yellow);
+}
+.bg-yellow-hover:hover {
+  background-color: #eab308;
+}
+
+.bg-violet-hover {
+  background-color: var(--color-violet);
+}
+.bg-violet-hover:hover {
+  background-color: var(--color-violet-dark);
+}
+
+/* ||Text colors */
+.txt-white {
+  color: var(--color-white);
+}
+.txt-green {
+  color: var(--color-green);
+}
+.txt-red {
+  color: var(--color-red);
+}
+.txt-yellow {
+  color: var(--color-yellow);
+}
+
+/* || Flex properties */
+.flx-row {
+  display: flex;
+  flex-direction: row;
+}
+/*  */
+.flx-col {
+  display: flex;
+  flex-direction: column;
+}
+
+.flx-center {
+  align-items: center;
+  justify-content: center;
+}
+
+.flx-main-center {
+  align-items: center;
+}
+
+.flx-cross-center {
+  justify-content: center;
+}
+/* || Spacing */
+.vertical-gutter-lg{
+margin-top: 2.4rem;
+}
+
+.vertical-gutter-md{
+  margin-top: 1.6rem;
+}
+
+.vertical-gutter-sm{
+  margin-top: 0.8rem;
+}
+
+/* || Imagery */
+
+img,
+video,
+iframe {
+  max-inline-size: 100%; /* same */
+  block-size: auto; /* same */
+  /* aspect-ratio:2/1; according to use */
+  /* object-fit: contain | cover;  according to use */
+  /* object-position: top center  according to use */
+}
+
+/* || Media queries */
+
+
