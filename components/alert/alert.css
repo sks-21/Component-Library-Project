@@ -1,0 +1,55 @@
+@import "/components/component.css";
+
+.alert {
+  border: 2px solid;
+  border-radius: 5px;
+  font-size: 1.6rem;
+  margin: 1.6rem;
+  padding: 1.6rem 1.6rem;
+  width: 60rem;
+  display: flex;
+  align-items: center;
+}
+
+.alert-primary {
+  background-color: var(--color-primary-light);
+  border-color: var(--color-primary-light);
+  color: var(--color-primary);
+}
+
+.alert-success {
+  background-color: var(--color-green-light);
+  border-color: var(--color-green-light);
+  color: var(--color-green-dark);
+}
+
+.alert-warning {
+  background-color: var(--color-yellow-light);
+  border-color: var(--color-yellow-light);
+  color: var(--color-yellow-dark);
+}
+
+.alert-error {
+  background-color: var(--color-red-light);
+  border-color: var(--color-red-light);
+  color: var(--color-red-dark);
+}
+
+.alert p {
+  margin-left: 0.8rem;
+}
+
+.alert button {
+  background-color: inherit;
+  margin-left: auto;
+}
+
+.alert button i {
+  font-size: 1.6rem;
+  background-color: inherit;
+}
+
+.alert button i:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
