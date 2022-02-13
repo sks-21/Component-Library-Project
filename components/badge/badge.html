@@ -4,12 +4,12 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Futbolt UI|Avatar</title>
+    <title>Futbolt UI|Badge</title>
     <script
       src="https://kit.fontawesome.com/0a41da8839.js"
       crossorigin="anonymous"
     ></script>
-    <link rel="stylesheet" href="/components/avatar/avatar.css" />
+    <link rel="stylesheet" href="/components/badge/badge.css" />
   </head>
 
   <body>
@@ -40,10 +40,10 @@
           <li class="menu-list-title">Contents</li>
 
           <li><a href="/components/alert/alert.html">Alert</a></li>
-          <li class="menu-list-item-active">
+          <li>
             <a href="/components/avatar/avatar.html">Avatar</a>
           </li>
-          <li>
+          <li class="menu-list-item-active">
             <a href="/components/badge/badge.html">Badge</a>
           </li>
           <li>
@@ -83,25 +83,21 @@
       <!-- || Main content starts  -->
       <main class="content flx-col">
         <!-- || Content Header Starts  -->
-        <div class="content-heading-lg">Avatar</div>
+        <div class="content-heading-lg">Badge</div>
 
         <!-- || Content Main starts  -->
         <div class="content-main">
-          <p>
-            The avatar component is used to reperesent a <b>user</b>. It can be
-            used as a profile picture or intials.
-          </p>
+          <p>The badge component.</p>
+          <!-- || Profile badges  -->
 
-          <!-- Image Avatar -->
-
-          <div class="content-heading-md">Image Avatar</div>
-          <p></p>
+          <div class="content-heading-md">Profile Badges</div>
           <div class="avatar avatar-xlg">
             <img
               src="/assets/images/avatar-img.jpg"
               alt="circle-image-xlg"
               srcset=""
             />
+            <span class="badge"><i class="fas fa-circle"></i></span>
           </div>
 
           <div class="avatar avatar-lg">
@@ -110,6 +106,9 @@
               alt="circle-image-lg"
               srcset=""
             />
+            <span class="badge">
+              <i class="fas fa-circle"></i>
+            </span>
           </div>
 
           <div class="avatar avatar-md">
@@ -118,6 +117,7 @@
               alt="circle-image-md"
               srcset=""
             />
+            <span class="badge"><i class="fas fa-circle"></i></span>
           </div>
 
           <div class="avatar avatar-sm">
@@ -126,37 +126,101 @@
               alt="circle-image-sm"
               srcset=""
             />
+            <span class="badge"> <i class="fas fa-circle i-sm"></i></span>
           </div>
 
           <br />
 
-          <div class="avatar-iframe">
-            <iframe
-              src="https://www.thiscodeworks.com/embed/62060a6da4f5770015a8851a"
-              frameborder="0"
-            ></iframe>
-      
-            <br>
-          <!-- Text Avatar -->
+          <!-- ||Status badges -->
 
-          <div class="content-heading-md">Text Avatar</div>
-          <div class="avatar avatar-xlg bg-orange">
-            <p>SKS</p>
+          <div class="content-heading-md">Status badges</div>
+
+          <div class="avatar avatar-lg">
+            <img
+              src="/assets/images/avatar-img.jpg"
+              alt="circle-image-lg"
+              srcset=""
+            />
+            <span class="badge">
+              <i class="fas fa-circle"></i>
+            </span>
           </div>
 
-          <div class="avatar avatar-lg bg-green-dark">
-            <p>AKJ</p>
+          <div class="avatar avatar-lg">
+            <img
+              src="/assets/images/avatar-img.jpg"
+              alt="circle-image-lg"
+              srcset=""
+            />
+            <span class="badge">
+              <i class="fas fa-moon fa-flip-horizontal"></i>
+            </span>
           </div>
 
-          <div class="avatar avatar-md bg-violet">
-            <p>CDS</p>
+          <div class="avatar avatar-lg">
+            <img
+              src="/assets/images/avatar-img.jpg"
+              alt="circle-image-lg"
+              srcset=""
+            />
+            <span class="badge">
+              <i class="fas fa-minus-circle"></i>
+            </span>
           </div>
 
-          <div class="avatar avatar-sm bg-red">
-            <p>SM</p>
+          <div class="avatar avatar-lg">
+            <img
+              src="/assets/images/avatar-img.jpg"
+              alt="circle-image-lg"
+              srcset=""
+            />
+            <span class="badge"><i class="fas fa-dot-circle"></i> </span>
           </div>
+          <div class="content-heading-md">Badges on icons</div>
+
+          <div class="badge-container">
+            <div class="badge-icon">
+              <i class="fas fa-circle"></i>
+            </div>
+            <i class="fas fa-envelope"></i>
+          </div>
+
+          <div class="badge-container">
+            <div class="badge-num">45+</div>
+            <i class="fas fa-bell"></i>
+          </div>
+
+          <div class="badge-container">
+            <div class="badge-num">9+</div>
+            <i class="fab fa-whatsapp-square"></i>
+          </div>
+
+          <div class="badge-container">
+            <div class="badge-num">99+</div>
+            <i class="fab fa-instagram-square"></i>
+          </div>
+
+          <div class="badge-container">
+            <div class="badge-icon">
+              <i class="fas fa-circle"></i>
+            </div>
+            <i class="fas fa-shopping-cart"></i>
+          </div>
+
+          <br />
+
+          <!-- ||Pill badges -->
+
+          <div class="content-heading-md">Pill Badges</div>
+          <br />
+          <span class="badge-pill bg-primary">Primary</span>
+          <span class="badge-pill bg-gray">Secondary</span>
+          <span class="badge-pill bg-green">Success</span>
+          <span class="badge-pill bg-yellow">Warning</span>
+          <span class="badge-pill bg-red">Error</span>
         </div>
-
+        <br />
+        <!-- || Content main ends -->
         <!-- || Content footer starts  -->
         <div class="content-footer flx-row">
           <a href="" class="content-footer-prev"
@@ -164,7 +228,7 @@
           </a>
 
           <a href="" class="content-footer-next">
-            Badge <i class="fas fa-angle-right"></i>
+            Button <i class="fas fa-angle-right"></i>
           </a>
         </div>
       </main>
