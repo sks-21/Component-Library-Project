@@ -1,47 +1,49 @@
 @import "/components/component.css";
 
 /* || Vertical card  */
-.ver-card {
+.vertical-card {
   border: 2px solid var(--color-offwhite);
-  border-radius: 10px;
+  border-radius: 5px;
   margin: 1rem;
   font-size: 1.6rem;
-  padding: 0.8rem;
   width: 25rem;
-
   position: relative;
 }
 
-.content-img img {
+.content-img {
   width: 100%;
   height: 65%;
   border-radius: 5px;
 }
 
-.ver-card-overlay {
+.vertical-card-overlay {
   position: absolute;
-  width: 93%;
+  width: 98%;
   box-sizing: border-box;
 }
 
-.overlay-btns {
+.overlay-btn {
+  margin-top: 5px;
   width: 100%;
+  padding: 2px;
   display: flex;
   justify-content: flex-end;
 }
 
-.overlay-btns button {
+.overlay-btn-heart {
   background: var(--color-gray-light);
   border-radius: 50%;
-  margin: 4px 2px 0 0;
-
   padding: 6px;
   font-size: 2rem;
 }
 
-.overlay-btns button:hover {
+.overlay-btn-heart:hover {
   cursor: pointer;
   opacity: 0.8;
+}
+
+.vertical-card-content {
+  padding: 0.8rem;
 }
 
 .card-title {
@@ -63,27 +65,28 @@
   display: inline-block;
 }
 
-.card-price {
+.card-sub-body {
   margin-top: 0.8rem;
   gap: 10px;
 }
 
-.card-price-sp {
+.card-sub-body-text1 {
   font-weight: bold;
 }
 
-.card-price-mrp {
+.card-sub-body-text2 {
   text-decoration: line-through;
   color: var(--color-gray);
 }
 
-.card-price-disc {
+.card-sub-body-text3 {
   color: var(--color-green);
 }
 
 .card-btn {
   margin: 0.8rem 0 0 0;
   color: var(--color-black);
+  width: 100%;
 }
 
 .card-btn:hover {
@@ -97,25 +100,23 @@
 }
 
 /* || Card with badges */
-
-.overlay-btns button {
+.overlay-btn-heart {
   margin-left: auto;
 }
 
-.overlay-btns span {
-  /* margin: 0rem; */
+.overlay-badge {
   border-radius: 5px;
   margin: 0rem;
   height: 3rem;
 }
 
 /* || Text only Cards  */
-
 .txt-card {
   width: 35rem;
+  padding: 8px;
 }
 
-.txt-card-headings {
+.txt-card-heading {
   color: var(--color-secondary);
   font-weight: bold;
 }
@@ -132,21 +133,27 @@
   margin-top: 8px;
 }
 
-.txt-card-btns {
+.txt-card-btn {
   align-items: center;
   margin-top: 8px;
 }
 
-.txt-card-btns-prime {
+.txt-card-btn-prime-link {
+  text-decoration: none;
+  color: var(--color-secondary);
+  font-weight: bold;
+}
+
+.txt-card-btn-prime {
   margin: 0rem;
   margin-right: auto;
 }
 
-.txt-card-btns i {
+.txt-card-btn-icon {
   padding: 1rem;
 }
 
-.txt-card-btns i:hover {
+.txt-card-btn-icon:hover {
   cursor: pointer;
 }
 
@@ -169,9 +176,8 @@
   height: 95%;
 }
 
-.overlay-full-btns {
+.overlay-full-btn {
   height: inherit;
-
   justify-content: center;
   align-items: center;
 }
@@ -191,43 +197,37 @@
   opacity: 1;
 }
 
-.op img {
-  opacity: 0.5;
-}
-
 /* || Card with shadow  */
-
 .card-shadow {
   box-shadow: 0 0 10px 3px var(--color-gray);
 }
 
 /* || Horizontal card  */
-.horz-card {
+.horizontal-card {
   border: 2px solid var(--color-offwhite);
   border-radius: 10px;
   margin: 1rem;
   font-size: 1.6rem;
-  padding: 0.8rem;
-  height: 25rem;
   width: 45rem;
   position: relative;
 }
 
-.horz-card-content {
+.horizontal-card-content {
   gap: 10px;
+  align-items: center;
 }
 
+.card-details {
+  padding: 8px;
+}
 
-.horz-content-img {
+.horizontal-card-img-container {
   height: 23rem;
-  width: 40rem;
-}
-
-.horz-content-img img {
-  height: 100%;
   border-radius: 5px;
 }
 
-.horz-card button {
-  width: 100%;
+.horizontal-card-img {
+  height: inherit;
+  width: 35rem;
+  border-radius: 5px;
 }
