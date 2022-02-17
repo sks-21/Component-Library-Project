@@ -1,0 +1,75 @@
+@import "/components/component.css";
+
+.list {
+    margin: 1rem;
+}
+
+/* || Basic List  */
+.list-basic-item {
+    padding: 4px;
+}
+
+/* || List styles  */
+.list-style-circle {
+    list-style-type: circle;
+}
+
+.list-style-square {
+    list-style-type: square;
+}
+
+
+.list-style-decimal {
+    list-style-type: decimal;
+
+}
+
+.list-style-latin-up {
+    list-style-type: upper-latin;
+
+}
+
+.list-style-latin-low {
+    list-style-type: lower-latin;
+}
+
+.list-style-roman-up {
+    list-style-type: upper-roman;
+}
+
+.list-style-roman-low {
+    list-style-type: lower-greek;
+
+}
+
+/* || Custom list - basic  */
+.list-custom {
+    border-radius: 5px;
+    width: 30rem;
+    margin: 0 1rem;
+    padding: 1rem 0;
+    list-style: none;
+}
+
+li.list-custom-item-heading {
+    font-size: 2rem;
+    font-weight: bold;
+    color: var(--color-secondary);
+    border-bottom: 2px solid var(--color-gray);
+
+}
+
+.list-custom-item {
+    padding: 1rem;
+    border-bottom: 2px solid var(--color-gray-light);
+}
+
+.list-custom-item input[type="radio"],
+input[type="checkbox"] {
+    cursor: pointer;
+}
+
+/* || Notification Stacked list  */
+.notify-heading {
+    font-weight: bold;
+}
