@@ -7,6 +7,7 @@
 ::before {
   box-sizing: border-box;
 }
+
 * {
   border: 0;
   margin: 0;
@@ -14,7 +15,118 @@
 }
 
 /* || Typography  */
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* Text Size */
+.txt-h1 {
+  font-size: 48px;
+  line-height: 64px;
+}
+
+.txt-h2 {
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.txt-h3 {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.txt-h4 {
+  font-size: 16x;
+  line-height: 24px;
+}
+
+.txt-h5 {
+  font-size: 10px;
+  line-height: 16px;
+}
+
+/* Text alignment */
+.txt-center {
+  text-align: center;
+}
+
+.txt-start {
+  text-align: start;
+}
+
+.txt-end {
+  text-align: end;
+}
+
+.txt-right {
+  text-align: right;
+}
+
+.txt-left {
+  text-align: left;
+}
+
+/* Different Font weights */
+.fw-900 {
+  font-weight: 900;
+}
+
+.fw-800 {
+  font-weight: 800;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-400 {
+  font-weight: 400;
+}
+
+.fw-300 {
+  font-weight: 300;
+}
+
+.fw-200 {
+  font-weight: 200;
+}
+
+.fw-100 {
+  font-weight: 100;
+}
+
+
+/* Text colors */
+.txt-primary {
+  color: var(--color-primary)
+}
+
+.txt-secondary {
+  color: var(--color-secondary);
+}
+
+.txt-white {
+  color: var(--color-white);
+}
+
+.txt-green {
+  color: var(--color-green);
+}
+
+.txt-red {
+  color: var(--color-red);
+}
+
+.txt-yellow {
+  color: var(--color-yellow);
+}
+
 
 /* || Root */
 :root {
@@ -22,8 +134,10 @@
   font-size: 62.5%;
 
   /* Colors */
-  --color-primary: #05445e; /*Navy Blue*/
-  --color-primary-dark: #043246; /* #02212e*/
+  --color-primary: #05445e;
+  /*Navy Blue*/
+  --color-primary-dark: #043246;
+  /* #02212e*/
   --color-primary-light: #ddf3f8;
   --color-primary-hover: #dbeafe;
 
@@ -65,6 +179,7 @@
 .bg-primary {
   background-color: var(--color-primary);
 }
+
 .bg-secondary {
   background-color: var(--color-secondary);
 }
@@ -96,6 +211,7 @@
 .bg-gray {
   background-color: var(--color-gray);
 }
+
 .bg-pink {
   background-color: var(--color-pink);
 }
@@ -112,9 +228,11 @@
 .bg-grey-hover {
   background-color: var(--color-gray);
 }
+
 .bg-grey-hover:hover {
   background-color: var(--color-gray-dark);
 }
+
 .bg-pink-hover {
   background-color: var(--color-pink);
 }
@@ -126,6 +244,7 @@
 .bg-red-hover {
   background-color: var(--color-red);
 }
+
 .bg-red-hover:hover {
   background-color: var(--color-red-dark);
 }
@@ -133,6 +252,7 @@
 .bg-yellow-hover {
   background-color: var(--color-yellow);
 }
+
 .bg-yellow-hover:hover {
   background-color: #eab308;
 }
@@ -140,22 +260,13 @@
 .bg-violet-hover {
   background-color: var(--color-violet);
 }
+
 .bg-violet-hover:hover {
   background-color: var(--color-violet-dark);
 }
 
-/* ||Text colors */
-.txt-white {
-  color: var(--color-white);
-}
-.txt-green {
-  color: var(--color-green);
-}
-.txt-red {
-  color: var(--color-red);
-}
-.txt-yellow {
-  color: var(--color-yellow);
+.cursor-p {
+  cursor: pointer;
 }
 
 /* || Flex properties */
@@ -163,6 +274,7 @@
   display: flex;
   flex-direction: row;
 }
+
 /*  */
 .flx-col {
   display: flex;
@@ -181,16 +293,17 @@
 .flx-cross-center {
   justify-content: center;
 }
+
 /* || Spacing */
-.vertical-gutter-lg{
-margin-top: 2.4rem;
+.vertical-gutter-lg {
+  margin-top: 2.4rem;
 }
 
-.vertical-gutter-md{
+.vertical-gutter-md {
   margin-top: 1.6rem;
 }
 
-.vertical-gutter-sm{
+.vertical-gutter-sm {
   margin-top: 0.8rem;
 }
 
@@ -199,13 +312,13 @@ margin-top: 2.4rem;
 img,
 video,
 iframe {
-  max-inline-size: 100%; /* same */
-  block-size: auto; /* same */
+  max-inline-size: 100%;
+  /* same */
+  block-size: auto;
+  /* same */
   /* aspect-ratio:2/1; according to use */
   /* object-fit: contain | cover;  according to use */
   /* object-position: top center  according to use */
 }
 
 /* || Media queries */
-
-
