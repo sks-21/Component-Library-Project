@@ -1,0 +1,250 @@
+@import "/components/component.css";
+
+/* || Vertical card  */
+.vertical-card {
+  border-radius: 5px;
+  margin: 1rem;
+  font-size: 1.6rem;
+  width: 25rem;
+  position: relative;
+}
+
+.content-img-container {
+  height: 250px;
+}
+
+.content-img {
+  border-radius: 5px 5px 0 0;
+  width: 100%;
+  height: 100%;
+  margin-bottom: 0;
+}
+
+.vertical-card-overlay {
+  position: absolute;
+  width: 98%;
+  box-sizing: border-box;
+}
+
+.overlay-btn {
+  margin-top: 8px;
+  width: 100%;
+  padding: 2px;
+  padding-left: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.overlay-btn-heart {
+  background: var(--color-gray-light);
+  border-radius: 50%;
+  padding: 6px;
+  font-size: 2rem;
+}
+
+.overlay-btn-heart:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+.vertical-card-content {
+  border: 2px solid var(--color-offwhite);
+  border-radius: 0 0 5px 5px;
+  margin-top: 0;
+  padding: 0.8rem;
+}
+
+.card-title {
+  color: var(--color-gray);
+}
+
+.card-desc {
+  color: var(--color-black);
+  font-size: bold;
+}
+
+.card-review {
+  margin-top: 0.8rem;
+}
+
+.card-review-rating {
+  margin: 0rem;
+  color: var(--color-black);
+  display: inline-block;
+}
+
+.card-sub-body {
+  margin-top: 0.8rem;
+  gap: 10px;
+}
+
+.card-sub-body-text1 {
+  font-weight: bold;
+}
+
+.card-sub-body-text2 {
+  text-decoration: line-through;
+  color: var(--color-gray);
+}
+
+.card-sub-body-text3 {
+  color: var(--color-green);
+}
+
+.card-btn {
+  margin: 0.8rem 0 0 0;
+  color: var(--color-black);
+  width: 100%;
+}
+
+.card-btn:hover {
+  opacity: 0.9;
+}
+
+.card-delivery {
+  color: var(--color-green);
+  font-weight: bold;
+  margin-top: 0.8rem;
+}
+
+/* || Card with badges */
+.overlay-btn-heart {
+  margin-left: auto;
+}
+
+.overlay-badge {
+  border-radius: 5px;
+  margin: 0rem;
+  height: 3rem;
+}
+
+/* || Text only Cards  */
+.txt-card {
+  width: 35rem;
+  padding: 8px;
+}
+
+.txt-card-heading {
+  color: var(--color-secondary);
+  font-weight: bold;
+}
+
+.txt-card-title {
+  font-size: 2.4rem;
+}
+
+.txt-card-subtitle {
+  font-size: 1.2rem;
+}
+
+.txt-card-content {
+  margin-top: 8px;
+}
+
+.txt-card-btn {
+  align-items: center;
+  margin-top: 8px;
+}
+
+.txt-card-btn-prime-link {
+  text-decoration: none;
+  color: var(--color-secondary);
+  font-weight: bold;
+}
+
+.txt-card-btn-prime {
+  margin: 0rem;
+  margin-right: auto;
+}
+
+.txt-card-btn-icon {
+  padding: 1rem;
+}
+
+.txt-card-btn-icon:hover {
+  cursor: pointer;
+}
+
+.txt-border {
+  border: 2px solid var(--color-offwhite);
+  border-radius: 5px;
+}
+
+/* || Card with dismiss buttons  */
+.txt-card-dismiss {
+  justify-content: space-between;
+}
+
+.txt-card-dismiss-icon {
+  font-size: 1.6rem;
+}
+
+.txt-card-dismiss i:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+
+/* || Card with text overlay  */
+.overlay-full {
+  height: 95%;
+}
+
+.overlay-full-btn {
+  height: inherit;
+  justify-content: center;
+  align-items: center;
+}
+
+.overlay-full-txt {
+  font-size: 2rem;
+  font-weight: bold;
+  color: var(--color-red);
+}
+
+.op {
+  opacity: 0.5;
+}
+
+.op button:hover {
+  cursor: default;
+  opacity: 1;
+}
+
+/* || Card with shadow  */
+.card-shadow {
+  box-shadow: 0 0 10px 3px var(--color-gray);
+}
+
+/* || Horizontal card  */
+.horizontal-card {
+  margin: 1rem;
+  font-size: 1.6rem;
+  width: 45rem;
+  position: relative;
+}
+
+.horizontal-card-img-container {
+  width: 35rem;
+}
+
+.horizontal-card-content {
+  align-items: center;
+}
+
+.card-details {
+  padding: 8px;
+  border: 2px solid var(--color-offwhite);
+  border-radius: 0 5px 5px 0;
+  height: 23rem;
+}
+
+.horizontal-card-img-container {
+  height: 23rem;
+  width: 35rem;
+}
+
+.horizontal-card-img {
+  height: inherit;
+  width: 100%;
+  border-radius: 5px 0 0 5px;
+}
