@@ -226,6 +226,25 @@
   border-radius: 15px;
 }
 
+.pd-1 {
+  padding: 4px;
+}
+
+.pd-2 {
+  padding: 8px;
+}
+
+.pd-3 {
+  padding: 16px;
+}
+
+.pd-4 {
+  padding: 24px;
+}
+
+.pd-5 {
+  padding: 32px;
+}
 /* || Imagery */
 
 img,
@@ -240,4 +259,5 @@ iframe {
   /* object-position: top center  according to use */
 }
 
+/* || Media queries */
 /* || Media queries */

@@ -5,7 +5,7 @@
   width: 100%;
   display: grid;
   grid-template-columns: 25rem 1fr;
-  grid-template-rows: 10rem 1fr;
+  grid-template-rows: 7rem 1fr;
   grid-template-areas:
     "nav nav"
     "aside main";
@@ -20,6 +20,10 @@
   color: var(--color-secondary);
   font-size: 2rem;
   padding: 1.6rem;
+  width: 100%;
+  position: fixed;
+  height: 7rem;
+  z-index: 10;
 }
 
 .navbar-logo {
@@ -27,7 +31,7 @@
 }
 
 .navbar-logo img {
-  height: 10rem;
+  height: 6rem;
   margin-right: 1rem;
 }
 
@@ -72,12 +76,18 @@ a.navbar-links-active {
   background-color: var(--color-navbar);
   font-size: 2rem;
   grid-area: aside;
-  overflow-y: scroll;
+  overflow-y: auto;
+  height: 95vh;
+  position: fixed;
+  top: 7rem;
 }
+
 .menu-list {
   list-style: none;
   width: 100%;
-  padding: 2.4rem;
+  padding: 0rem 2.4rem;
+  /* margin-bottom: 3rem; */
+  padding-bottom: 3.5rem;
 }
 
 .menu-list li {
@@ -88,10 +98,10 @@ a.navbar-links-active {
 li.menu-list-title {
   color: var(--color-secondary);
   font-weight: bold;
-  padding-top: 0rem;
   font-size: 2.4rem;
   padding-bottom: 8px;
   border-bottom: 1px solid var(--color-secondary);
+  margin-top: 1rem;
   margin-bottom: 5px;
 }
 
@@ -122,8 +132,6 @@ aside::-webkit-scrollbar-track {
 
 aside::-webkit-scrollbar-thumb {
   background-color: darkgrey;
-  background-color: #ecf7fa;
-  background-color: #020e11;
   outline: 1px solid slategrey;
 }
 
@@ -132,7 +140,7 @@ aside::-webkit-scrollbar-thumb {
   font-size: 1.6rem;
   grid-area: main;
   color: var(--color-text);
-  padding: 2.4rem;
+  padding: 1.2rem 2.4rem;
   padding-right: 10rem;
 }
 
