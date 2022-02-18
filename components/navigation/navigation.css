@@ -52,3 +52,9 @@
 .pd-left-0 {
   padding-left: 0;
 }
+
+/* || Nav Search  */
+.nav-search {
+  border: none;
+  border-radius: 5px;
+}
