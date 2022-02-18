@@ -181,6 +181,10 @@
 .flx-cross-center {
   justify-content: center;
 }
+
+.flx-wrap{
+  flex-wrap: wrap;
+}
 /* || Spacing */
 .vertical-gutter-lg{
 margin-top: 2.4rem;
