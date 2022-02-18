@@ -1,0 +1,80 @@
+@import "/components/component.css";
+
+/* || Individual Component - type 1  */
+.form-comp-1 {
+    border: 2px solid var(--color-gray);
+    border-radius: 5px;
+    padding: 1.6rem;
+    margin: 8px 0;
+    max-width: 70rem;
+}
+
+.form-label {
+    font-weight: bold;
+    display: block;
+}
+
+.form-input {
+    padding: 8px;
+    font-family: inherit;
+    width: 100%;
+    height: 5rem;
+}
+
+.form-input-text {
+    border: 2px solid var(--color-gray-light);
+}
+
+.form-input:focus {
+    border: 2px solid var(--color-secondary);
+    outline: none;
+}
+
+.form-textarea {
+    font-family: inherit;
+    border: 2px solid var(--color-gray-light);
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.form-textarea:focus {
+    outline: none;
+    border: 2px solid var(--color-secondary);
+}
+
+/* || form commponent - type 1  */
+.form-1 {
+    border: 2px solid var(--color-gray);
+    border-radius: 5px;
+    padding: 0 1.6rem;
+    max-width: 70rem;
+}
+
+/* || Individual Component - type 2  */
+.form-comp-2 {
+    margin: 1.6rem 0;
+    width: 100%;
+}
+
+.txt-error {
+    color: var(--color-red-dark);
+    font-size: 1.2rem;
+}
+
+.form-input.form-error {
+    border: 2px solid var(--color-red);
+}
+
+.sup-script {
+    font-size: 1.6rem;
+}
+
+/* || Input with icon  */
+.form-icon {
+    font-size: 3rem;
+    padding: 8px;
+    width: 5rem;
+    background-color: var(--color-secondary);
+    color: white;
+    text-align: center;
+}
