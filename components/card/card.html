@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Futbolt UI | Card</title>
+    <script src="https://kit.fontawesome.com/0a41da8839.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/components/card/card.css" />
+</head>
+
+<body>
+    <!-- || Container  -->
+    <div class="container">
+
+
+        <!-- || Navbar starts -->
+        <nav class="navbar flx-row flx-main-center">
+            <div class="navbar-logo">
+                <img src="/assets/images/futbolt-lg.png" alt="" loading="eager" />
+            </div>
+            <div class="navbar-title">Futbolt UI</div>
+            <div class="navbar-links">
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="#" class="navbar-links-active">Docs</a></li>
+                    <li>
+                        <a href="https://github.com/sks-21/Futbolt-Component-Library">
+                            <i class="fab fa-github"></i> Github</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- || Side Menu starts   -->
+        <aside class="menu flx-column flx-main-center">
+            <ul class="menu-list">
+                <li class="menu-list-title">Getting Started</li>
+                <li>
+                    <a href="">Installation</a>
+                </li>
+                <li>
+                    <a href="">Typography</a>
+                </li>
+                </li>
+                <li>
+                    <a href="">Colors</a>
+                </li>
+
+                <li class="menu-list-title">Components</li>
+                <li><a href="/components/alert/alert.html">Alert</a></li>
+                <li>
+                    <a href="/components/avatar/avatar.html">Avatar</a>
+                </li>
+                <li>
+                    <a href="/components/badge/badge.html">Badge</a>
+                </li>
+                <li>
+                    <a href="/components/button/button.html">Button</a>
+                </li>
+                <li class="menu-list-item-active">
+                    <a href="/components/card/card.html">Card</a>
+                </li>
+                <li>
+                    <a href="/components/image/image.html">Image</a>
+                </li>
+                <li>
+                    <a href="/components/input/badge.html">Input</a>
+                </li>
+                <li>
+                    <a href="/components/textutil/textutil.html">Text utilites</a>
+                </li>
+                <li><a href="/components/lists/lists.html">Lists</a></li>
+                <li>
+                    <a href="/components/navigation/navigation.html">Navigation</a>
+                </li>
+                <li>
+                    <a href="/components/modal/modal.html">Modal</a>
+                </li>
+                <li>
+                    <a href="/components/rating/rating.html">Rating</a>
+                </li>
+                <li>
+                    <a href="/components/toast/toast.html">Toast</a>
+                </li>
+                <li>
+                    <a href="/components/grid/grid.html">Simple Grid</a>
+                </li>
+            </ul>
+        </aside>
+
+        <!-- || Main content starts  -->
+        <main class="content flx-col">
+            <!-- || Content Header Starts  -->
+            <div class="content-heading-lg">Card</div>
+
+            <!-- || Content Main starts  -->
+            <div class="content-main">
+                <p>The card component.</p>
+
+                <!-- Vertical card -->
+                <div class="content-heading-md">Vertical Card</div>
+
+                <div class="vertical-card">
+                    <div class="vertical-card-overlay">
+                        <div class="overlay-btn">
+                            <button class="overlay-btn-heart"><i class="far fa-heart"></i></button>
+                        </div>
+                    </div>
+                    <div class="content-img-container">
+                        <img class="content-img" src="/assets/images/card-dress.jpeg" alt="" />
+                    </div>
+                    <div class="vertical-card-content flx-col">
+                        <div class="card-title">Adidas</div>
+                        <div class="card-desc">Round Neck Blue T-Shirt</div>
+                        <div class="card-review">
+                            <span class="badge-pill bg-green card-review-rating">4.4 <i class="fas fa-star"></i></span>
+                            <span>(17,329)</span>
+                        </div>
+                        <div class="card-sub-body flx-row">
+                            <div class="card-sub-body-text1">₹699</div>
+                            <div class="card-sub-body-text2">₹1,799</div>
+                            <div class="card-sub-body-text3">65%off</div>
+                        </div>
+                        <button class="btn btn-success card-btn"><i class="fas fa-shopping-cart"></i></i> Add to Cart
+                        </button>
+                    </div>
+                </div>
+                <br />
+
+                <!-- Vertical Card with badges -->
+                <div class="content-heading-md">Vertical Card with badges</div>
+                <div class="vertical-card">
+                    <div class="vertical-card-overlay">
+                        <div class="overlay-btn ">
+                            <span class="badge-pill bg-primary  overlay-badge">New</span>
+                            <button class="overlay-btn-heart"><i class="far fa-heart"></i></button>
+                        </div>
+                    </div>
+                    <div class="content-img-container">
+                        <img class="content-img" src="/assets/images/card-dress.jpeg" alt="" />
+                    </div>
+                    <div class="vertical-card-content flx-col">
+                        <div class="card-title">Adidas</div>
+                        <div class="card-desc">Round Neck Blue T-Shirt</div>
+                        <div class="card-review">
+                            <span class="badge-pill bg-green card-review-rating">4.4 <i class="fas fa-star"></i></span>
+                            <span>(17,329)</span>
+                        </div>
+                        <div class="card-sub-body flx-row">
+                            <div class="card-sub-body-text1">₹699</div>
+                            <div class="card-sub-body-text2">₹1,799</div>
+                            <div class="card-sub-body-text3">65%off</div>
+                        </div>
+                        <button class="btn btn-success card-btn"><i class="fas fa-shopping-cart"></i></i> Add to Cart
+                        </button>
+                    </div>
+                </div>
+                <br />
+
+                <div class="vertical-card">
+                    <div class="vertical-card-overlay">
+                        <div class="overlay-btn">
+                            <span class="badge-pill bg-pink overlay-badge">Trending</span>
+                            <button class="overlay-btn-heart"><i class="far fa-heart"></i></button>
+                        </div>
+                    </div>
+                    <div class="content-img-container">
+                        <img class="content-img" src="/assets/images/card-dress.jpeg" alt="" />
+                    </div>
+                    <div class="vertical-card-content flx-col">
+                        <div class="card-title">Adidas</div>
+                        <div class="card-desc">Round Neck Blue T-Shirt</div>
+                        <div class="card-review">
+                            <span class="badge-pill bg-green card-review-rating">4.4 <i class="fas fa-star"></i></span>
+                            <span>(17,329)</span>
+                        </div>
+                        <div class="card-sub-body flx-row">
+                            <div class="card-sub-body-text1">₹699</div>
+                            <div class="card-sub-body-text2">₹1,799</div>
+                            <div class="card-sub-body-text3">65%off</div>
+                        </div>
+                        <button class="btn btn-success card-btn"><i class="fas fa-shopping-cart"></i></i> Add to Cart
+                        </button>
+                    </div>
+                </div>
+
+                <br />
+
+                <!-- Cards with text overlay -->
+                <div class="content-heading-md">Cards with text overlay</div>
+                <div class="vertical-card">
+                    <div class="vertical-card-overlay overlay-full">
+                        <div class="overlay-btn overlay-full-btn">
+                            <div class="overlay-full-txt">Out of Stock</div>
+                        </div>
+                    </div>
+                    <div class="content-img-container op">
+                        <img class="content-img" src="/assets/images/card-dress.jpeg" alt="" />
+                    </div>
+                    <div class="vertical-card-content flx-col op">
+                        <div class="card-title">Adidas</div>
+                        <div class="card-desc">Round Neck Blue T-Shirt</div>
+                        <div class="card-review">
+                            <span class="badge-pill bg-green card-review-rating">4.4 <i class="fas fa-star"></i></span>
+                            <span>(17,329)</span>
+                        </div>
+                        <div class="card-sub-body flx-row">
+                            <div class="card-sub-body-text1">₹699</div>
+                            <div class="card-sub-body-text2">₹1,799</div>
+                            <div class="card-sub-body-text3">65%off</div>
+                        </div>
+                        <button class="btn btn-success card-btn"><i class="fas fa-shopping-cart"></i></i> Add to Cart
+                        </button>
+                    </div>
+                </div>
+
+                <br />
+
+                <!-- Text only card -->
+                <div class="content-heading-md ">Text only card </div>
+
+                <div class="vertical-card txt-card txt-border">
+                    <div class="txt-card-heading">
+                        <div class="txt-card-title">FIFA World Cup</div>
+                        <div class="txt-card-subtitle">10-02-2022</div>
+
+                    </div>
+                    <p class="txt-card-content">
+                        The FIFA World Cup, often simply called the World Cup, is an international association football
+                        competition contested by the senior men's national teams of the members of the Fédération
+                        Internationale de Football Association (FIFA), the sport's global governing body.
+                    </p>
+                    <div>
+                        <div class="txt-card-btn flx-row">
+                            <div class="txt-card-btn-prime"> <a class="txt-card-btn-prime-link" href="">Read More</a>
+                            </div>
+                            <i class="far fa-heart txt-card-btn-icon"></i>
+                            <i class="fas fa-share-alt txt-card-btn-icon"></i>
+                            <i class="fas fa-ellipsis-v txt-card-btn-icon"></i>
+                        </div>
+                    </div>
+                </div>
+
+
+                <!-- Card with dismiss buttons -->
+                <div class="content-heading-md">Card with dismiss buttons</div>
+
+                <div class="vertical-card txt-card  txt-border">
+                    <div class="txt-card-heading txt-card-dismiss flx-row">
+                        <div class="txt-card-title">The Premier League</div>
+                        <button class="txt-card-dismiss-icon">
+                            <i class="fas fa-times-circle"></i>
+                        </button>
+
+                    </div>
+                    <p class="txt-card-content">
+                        The Premier League, also known exonymously as the English Premier League or the EPL, is the top
+                        level of the English football league system. Contested by 20 clubs, it operates on a system of
+                        promotion and relegation with the English Football League.
+                    </p>
+                    <div>
+                        <div class="txt-card-btn flx-row">
+                            <div class="txt-card-btn-prime"> <a class="txt-card-btn-prime-link" href="">Read More</a>
+                            </div>
+                            <i class="far fa-heart txt-card-btn-icon"></i>
+                            <i class="fas fa-share-alt txt-card-btn-icon"></i>
+                            <i class="fas fa-ellipsis-v txt-card-btn-icon"></i>
+                        </div>
+                    </div>
+                </div>
+                <br />
+
+                <!-- Card with shadow -->
+                <div class="content-heading-md">Card with shadow</div>
+
+                <div class="vertical-card card-shadow ">
+                    <div class="vertical-card-overlay">
+                        <div class="overlay-btn">
+                            <button class="overlay-btn-heart"><i class="far fa-heart"></i></button>
+                        </div>
+                    </div>
+                    <div class="content-img-container">
+                        <img class="content-img" src="/assets/images/card-dress.jpeg" alt="" />
+                    </div>
+                    <div class="vertical-card-content flx-col">
+                        <div class="card-title">Adidas</div>
+                        <div class="card-desc">Round Neck Blue T-Shirt</div>
+                        <div class="card-review">
+                            <span class="badge-pill bg-green card-review-rating">4.4 <i class="fas fa-star"></i></span>
+                            <span>(17,329)</span>
+                        </div>
+                        <div class="card-sub-body flx-row">
+                            <div class="card-sub-body-text1">₹699</div>
+                            <div class="card-sub-body-text2">₹1,799</div>
+                            <div class="card-sub-body-text3">65%off</div>
+                        </div>
+                        <button class="btn btn-success card-btn"><i class="fas fa-shopping-cart"></i></i> Add to Cart
+                        </button>
+                    </div>
+                </div>
+                <br>
+
+                <!-- Horizontal Card -->
+                <div class="content-heading-md">Horizontal Card</div>
+
+                <div class="horizontal-card">
+                    <div class="horizontal-card-content flx-row">
+                        <div class="horizontal-card-img-container">
+                            <img class="horizontal-card-img" src="/assets/images/card-dress.jpeg" alt="" />
+                        </div>
+                        <div class="card-details">
+                            <div class="card-title">Adidas</div>
+                            <div class="card-desc">Round Neck Blue T-Shirt</div>
+                            <div class="card-review">
+                                <span class="badge-pill bg-green card-review-rating">4.4 <i
+                                        class="fas fa-star"></i></span>
+                                <span>(17,329)</span>
+                            </div>
+                            <div class="card-sub-body flx-row">
+                                <div class="card-sub-body-text1">₹699</div>
+                                <div class="card-sub-body-text2">₹1,799</div>
+                                <div class="card-sub-body-text3">65%off</div>
+                            </div>
+                            <button class="btn btn-success card-btn"><i class="fas fa-shopping-cart"></i></i> Add to
+                                Cart
+                            </button>
+                            <button class="btn btn-outline btn-outline-success card-btn"><i class="far fa-heart"></i>
+                                Add to Wishlist</button>
+                        </div>
+                    </div>
+                </div>
+                <br />
+
+                <!-- || Content main ends -->
+                <br>
+                <!-- || Content footer starts  -->
+                <div class="content-footer flx-row">
+                    <a href="" class="content-footer-prev"><i class="fas fa-angle-left"></i> Button
+                    </a>
+
+                    <a href="" class="content-footer-next">
+                        Image <i class="fas fa-angle-right"></i>
+                    </a>
+                </div>
+        </main>
+    </div>
+
+    <script src="/documentation/documentation.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,14 @@
+@import "/components//component.css";
+
+.comp-container-heading {
+    border: 2px solid var(--color-gray);
+    border-radius: 5px;
+    padding: 1.6rem;
+    width: 80rem;
+    color: black;
+}
+
+.txt-weights {
+    font-size: 2rem;
+    line-height: 2;
+}

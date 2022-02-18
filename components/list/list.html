@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Futbolt UI | Input</title>
+    <script src="https://kit.fontawesome.com/0a41da8839.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/components/list/list.css" />
+</head>
+
+<body>
+    <!-- || Container  -->
+    <div class="container">
+
+
+        <!-- || Navbar starts -->
+        <nav class="navbar flx-row flx-main-center">
+            <div class="navbar-logo">
+                <img src="/assets/images/futbolt-lg.png" alt="" loading="eager" />
+            </div>
+            <div class="navbar-title">Futbolt UI</div>
+            <div class="navbar-links">
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="#" class="navbar-links-active">Docs</a></li>
+                    <li>
+                        <a href="https://github.com/sks-21/Futbolt-Component-Library">
+                            <i class="fab fa-github"></i> Github</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- || Side Menu starts   -->
+        <aside class="menu flx-column flx-main-center">
+            <ul class="menu-list">
+                <li class="menu-list-title">Getting Started</li>
+                <li>
+                    <a href="#">Installation</a>
+                </li>
+                <li>
+                    <a href="#">Typography</a>
+                </li>
+                </li>
+                <li>
+                    <a href="#">Colors</a>
+                </li>
+
+                <li class="menu-list-title">Components</li>
+                <li><a href="/components/alert/alert.html">Alert</a></li>
+                <li>
+                    <a href="/components/avatar/avatar.html">Avatar</a>
+                </li>
+                <li>
+                    <a href="/components/badge/badge.html">Badge</a>
+                </li>
+                <li>
+                    <a href="/components/button/button.html">Button</a>
+                </li>
+                <li>
+                    <a href="/components/card/card.html">Card</a>
+                </li>
+                <li>
+                    <a href="/components/image/image.html">Image</a>
+                </li>
+                <li>
+                    <a href="/components/input/input.html">Input</a>
+                </li>
+                <li>
+                    <a href="/components/textutil/textutil.html">Text utilites</a>
+                </li>
+                <li class="menu-list-item-active"><a href="/components/lists/lists.html">Lists</a></li>
+                <li>
+                    <a href="/components/navigation/navigation.html">Navigation</a>
+                </li>
+                <li>
+                    <a href="/components/modal/modal.html">Modal</a>
+                </li>
+                <li>
+                    <a href="/components/rating/rating.html">Rating</a>
+                </li>
+                <li>
+                    <a href="/components/toast/toast.html">Toast</a>
+                </li>
+                <li>
+                    <a href="/components/grid/grid.html">Simple Grid</a>
+                </li>
+            </ul>
+        </aside>
+
+        <!-- || Main content starts  -->
+        <main class="content flx-col">
+            <!-- || Content Header Starts  -->
+            <div class="content-heading-lg">List</div>
+
+            <!-- || Content Main starts  -->
+            <div class="content-main">
+                <p>The list component.</p>
+                <br>
+
+                <!-- Unordered List -->
+                <div class="content-heading-md">Unordered List</div>
+                <ul class="list list-basic">
+                    <li class="list-basic-item"> Manchester City</li>
+                    <li class="list-basic-item"> Chelsea</li>
+                    <li class="list-basic-item"> Liverpool</li>
+                    <li class="list-basic-item"> West Ham</li>
+                    <li class="list-basic-item"> Manchester United</li>
+                </ul>
+
+                <ul class="list list-style-circle">
+                    <li class="list-basic-item"> Manchester City</li>
+                    <li class="list-basic-item"> Chelsea</li>
+                    <li class="list-basic-item"> Liverpool</li>
+                    <li class="list-basic-item"> West Ham</li>
+                    <li class="list-basic-item"> Manchester United</li>
+                </ul>
+
+                <ul class="list list-style-square">
+                    <li class="list-basic-item"> Manchester City</li>
+                    <li class="list-basic-item"> Chelsea</li>
+                    <li class="list-basic-item"> Liverpool</li>
+                    <li class="list-basic-item"> West Ham</li>
+                    <li class="list-basic-item"> Manchester United</li>
+                </ul>
+                <br>
+
+                <br>
+
+                <!-- Ordered Lists-->
+                <div class="content-heading-md">Ordered Lists</div>
+                <ol class="list list-style-decimal">
+                    <li class="list-basic-item">Real Madrid</li>
+                    <li class="list-basic-item">Sevilla</li>
+                    <li class="list-basic-item">Barcelona</li>
+                    <li class="list-basic-item">Atletico Madrid</li>
+                    <li class="list-basic-item">Villarreal</li>
+                </ol>
+                <ol class="list list-style-roman-up ">
+                    <li class="list-basic-item">Real Madrid</li>
+                    <li class="list-basic-item">Sevilla</li>
+                    <li class="list-basic-item">Barcelona</li>
+                    <li class="list-basic-item">Atletico Madrid</li>
+                    <li class="list-basic-item">Villarreal</li>
+                </ol>
+                <ol class="list list-style-latin-low ">
+                    <li class="list-basic-item">Real Madrid</li>
+                    <li class="list-basic-item">Sevilla</li>
+                    <li class="list-basic-item">Barcelona</li>
+                    <li class="list-basic-item">Atletico Madrid</li>
+                    <li class="list-basic-item">Villarreal</li>
+                </ol>
+
+                <br>
+                <!-- || Basic List  -->
+                <div class="content-heading-md">Basic List</div>
+                <ul class="list-custom ">
+                    <li class="list-custom-item list-custom-item-heading">Different Football leagues </li>
+                    <li class="list-custom-item">Premier league - England</li>
+                    <li class="list-custom-item">La liga - Spain</li>
+                    <li class="list-custom-item">Serie A - Italy</li>
+                    <li class="list-custom-item">Bundesliga - Germany</li>
+                    <li class="list-custom-item">Ligue 1 - France</li>
+                </ul>
+                <br>
+
+                <!-- || List with Radio Buttons  -->
+                <div class="content-heading-md">List with Radio Buttons</div>
+
+                <ul class="list-custom">
+                    <li class="list-custom-item list-custom-item-heading">Rating </li>
+                    <li class="list-custom-item"> <input type="radio" name="rd-item" id="rd-item-1" value="rd-item-1">
+                        <label for="rd-item-1" class="cursor-p">4 Stars &
+                            above</label></li>
+                    <li class="list-custom-item"> <input type="radio" name="rd-item" id="rd-item-2" value="rd-item-2">
+                        <label for="rd-item-2" class="cursor-p">3 Stars &
+                            above</label></li>
+                    <li class="list-custom-item"> <input type="radio" name="rd-item" id="rd-item-3" value="rd-item-3">
+                        <label for="rd-item-3" class="cursor-p">2 Stars &
+                            above</label> </li>
+                    <li class="list-custom-item"> <input type="radio" name="rd-item" id="rd-item-4" value="rd-item-4">
+                        <label for="rd-item-4" class="cursor-p">1 Stars &
+                            above</label></li>
+
+                </ul>
+
+                <!-- || List with Check Box  -->
+                <div class="content-heading-md">List with Check Box</div>
+                <ul class="list-custom">
+                    <li class="list-custom-item list-custom-item-heading">Clothing </li>
+                    <li class="list-custom-item"> <input type="checkbox" name="chck-item-1" id="chck-item-1"
+                            value="chck-item-1">
+                        <label for="chck-item-1" class="cursor-p">Men Clothing</label></li>
+                    <li class="list-custom-item"> <input type="checkbox" name="chck-item-2" id="chck-item-2"
+                            value="chck-item-2">
+                        <label for="chck-item-2" class="cursor-p">Women Clothing</label></li>
+                    <li class="list-custom-item"> <input type="checkbox" name="chck-item" id="chck-item-3"
+                            value="chck-item-3">
+                        <label for="chck-item-3" class="cursor-p">Children Clothing</label> </li>
+                    <li class="list-custom-item"> <input type="checkbox" name="chck-item" id="chck-item-4"
+                            value="chck-item-4">
+                        <label for="chck-item-4" class="cursor-p">Gender Neutral</label></li>
+
+                </ul>
+                <br>
+
+                <!-- || Notification List  -->
+                <div class="content-heading-md">Notification List</div>
+                <ul class="list-custom ">
+                    <li class="list-custom-item">
+                        <div class="notiy-container">
+                            <p class="notify-heading">Name 1</p>
+                            <p>The message by person 1</p>
+                        </div>
+                    </li>
+                    <li class="list-custom-item">
+                        <div class="notiy-container">
+                            <p class="notify-heading">Name 2</p>
+                            <p>The message by person 2</p>
+                        </div>
+                    </li>
+                    <li class="list-custom-item">
+                        <div class="notiy-container">
+                            <p class="notify-heading">Name 3</p>
+                            <p>The message by person 3</p>
+                        </div>
+                    </li>
+                    <li class="list-custom-item">
+                        <div class="notiy-container">
+                            <p class="notify-heading">Name 4</p>
+                            <p>The message by person 4</p>
+                        </div>
+                    </li>
+
+                </ul>
+                <br>
+                <!-- || Content footer starts  -->
+                <div class="content-footer flx-row">
+                    <a href="#" class="content-footer-prev"><i class="fas fa-angle-left"></i> Image
+                    </a>
+
+                    <a href="#" class="content-footer-next">
+                        Text utilites <i class="fas fa-angle-right"></i>
+                    </a>
+                </div>
+        </main>
+    </div>
+
+    <script src="/documentation/documentation.js"></script>
+</body>
+
+</html>
