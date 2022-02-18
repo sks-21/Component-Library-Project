@@ -7,6 +7,7 @@
 ::before {
   box-sizing: border-box;
 }
+
 * {
   border: 0;
   margin: 0;
@@ -22,8 +23,10 @@
   font-size: 62.5%;
 
   /* Colors */
-  --color-primary: #05445e; /*Navy Blue*/
-  --color-primary-dark: #043246; /* #02212e*/
+  --color-primary: #05445e;
+  /*Navy Blue*/
+  --color-primary-dark: #043246;
+  /* #02212e*/
   --color-primary-light: #ddf3f8;
   --color-primary-hover: #dbeafe;
 
@@ -65,6 +68,7 @@
 .bg-primary {
   background-color: var(--color-primary);
 }
+
 .bg-secondary {
   background-color: var(--color-secondary);
 }
@@ -96,6 +100,7 @@
 .bg-gray {
   background-color: var(--color-gray);
 }
+
 .bg-pink {
   background-color: var(--color-pink);
 }
@@ -112,9 +117,11 @@
 .bg-grey-hover {
   background-color: var(--color-gray);
 }
+
 .bg-grey-hover:hover {
   background-color: var(--color-gray-dark);
 }
+
 .bg-pink-hover {
   background-color: var(--color-pink);
 }
@@ -126,6 +133,7 @@
 .bg-red-hover {
   background-color: var(--color-red);
 }
+
 .bg-red-hover:hover {
   background-color: var(--color-red-dark);
 }
@@ -133,6 +141,7 @@
 .bg-yellow-hover {
   background-color: var(--color-yellow);
 }
+
 .bg-yellow-hover:hover {
   background-color: #eab308;
 }
@@ -140,20 +149,28 @@
 .bg-violet-hover {
   background-color: var(--color-violet);
 }
+
 .bg-violet-hover:hover {
   background-color: var(--color-violet-dark);
+}
+
+.bg-gray{
+  background-color: var(--color-gray);
 }
 
 /* ||Text colors */
 .txt-white {
   color: var(--color-white);
 }
+
 .txt-green {
   color: var(--color-green);
 }
+
 .txt-red {
   color: var(--color-red);
 }
+
 .txt-yellow {
   color: var(--color-yellow);
 }
@@ -163,6 +180,7 @@
   display: flex;
   flex-direction: row;
 }
+
 /*  */
 .flx-col {
   display: flex;
@@ -181,6 +199,7 @@
 .flx-cross-center {
   justify-content: center;
 }
+
 /* || Spacing */
 .vertical-gutter-lg {
   margin-top: 2.4rem;
@@ -192,6 +211,19 @@
 
 .vertical-gutter-sm {
   margin-top: 0.8rem;
+}
+
+/* || Border radius */
+.brad-5 {
+  border-radius: 5px;
+}
+
+.brad-10 {
+  border-radius: 10px;
+}
+
+.brad-15 {
+  border-radius: 15px;
 }
 
 .pd-1 {
@@ -218,11 +250,14 @@
 img,
 video,
 iframe {
-  max-inline-size: 100%; /* same */
-  block-size: auto; /* same */
+  max-inline-size: 100%;
+  /* same */
+  block-size: auto;
+  /* same */
   /* aspect-ratio:2/1; according to use */
   /* object-fit: contain | cover;  according to use */
   /* object-position: top center  according to use */
 }
 
+/* || Media queries */
 /* || Media queries */
