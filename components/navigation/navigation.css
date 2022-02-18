@@ -1,0 +1,54 @@
+@import "/components/component.css";
+
+/* || Navbar Styles */
+.navbar-1 {
+  background-color: var(--color-navbar);
+  box-shadow: 2px 2px 5px var(--color-gray);
+  color: var(--color-secondary);
+  font-size: 2rem;
+  padding: 1.6rem;
+}
+
+.navbar-1-title {
+  flex-grow: 1;
+  font-size: 3.2rem;
+  font-weight: bold;
+}
+
+.navbar-1-links {
+  margin-left: auto;
+  margin-right: 3.2rem;
+}
+
+.navbar-1-ul {
+  list-style: none;
+}
+
+.navbar-item {
+  display: inline-block;
+  padding: 1.6rem;
+}
+
+.navbar-1-links-a {
+  color: var(--color-secondary);
+  text-decoration: none;
+}
+
+.navbar-1-links-active {
+  color: var(--color-primary);
+  font-weight: bold;
+  text-decoration: underline;
+}
+
+.navbar-1-links-a:hover {
+  color: var(--color-primary);
+  text-decoration: underline;
+}
+
+.pd-right-0 {
+  padding-right: 0;
+}
+
+.pd-left-0 {
+  padding-left: 0;
+}
