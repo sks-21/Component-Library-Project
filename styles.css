@@ -267,6 +267,25 @@
 
 .cursor-p {
   cursor: pointer;
+.bg-gray{
+  background-color: var(--color-gray);
+}
+
+/* ||Text colors */
+.txt-white {
+  color: var(--color-white);
+}
+
+.txt-green {
+  color: var(--color-green);
+}
+
+.txt-red {
+  color: var(--color-red);
+}
+
+.txt-yellow {
+  color: var(--color-yellow);
 }
 
 /* || Flex properties */
@@ -307,6 +326,38 @@
   margin-top: 0.8rem;
 }
 
+/* || Border radius */
+.brad-5 {
+  border-radius: 5px;
+}
+
+.brad-10 {
+  border-radius: 10px;
+}
+
+.brad-15 {
+  border-radius: 15px;
+}
+
+.pd-1 {
+  padding: 4px;
+}
+
+.pd-2 {
+  padding: 8px;
+}
+
+.pd-3 {
+  padding: 16px;
+}
+
+.pd-4 {
+  padding: 24px;
+}
+
+.pd-5 {
+  padding: 32px;
+}
 /* || Imagery */
 
 img,

@@ -1,0 +1,31 @@
+@import "/components/component.css";
+
+.img-res {
+  object-fit: cover;
+  object-position: center;
+}
+
+/* || Square Image  */
+.img-container {
+  border: 2px solid var(--color-gray);
+  border-radius: 5px;
+  padding: 8px;
+}
+
+.img-square {
+  aspect-ratio: 2/1;
+  width: 100%;
+  border-radius: 5px;
+}
+
+/* || Rounded Imaage  */
+.img-round-container {
+  padding: 1rem;
+  border-radius: 50%;
+}
+
+.img-round {
+  border-radius: 50%;
+  width: 15rem;
+  height: 15rem;
+}
