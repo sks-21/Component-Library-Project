@@ -15,7 +15,118 @@
 }
 
 /* || Typography  */
-@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+/* Text Size */
+.txt-h1 {
+  font-size: 48px;
+  line-height: 64px;
+}
+
+.txt-h2 {
+  font-size: 32px;
+  line-height: 40px;
+}
+
+.txt-h3 {
+  font-size: 24px;
+  line-height: 32px;
+}
+
+.txt-h4 {
+  font-size: 16x;
+  line-height: 24px;
+}
+
+.txt-h5 {
+  font-size: 10px;
+  line-height: 16px;
+}
+
+/* Text alignment */
+.txt-center {
+  text-align: center;
+}
+
+.txt-start {
+  text-align: start;
+}
+
+.txt-end {
+  text-align: end;
+}
+
+.txt-right {
+  text-align: right;
+}
+
+.txt-left {
+  text-align: left;
+}
+
+/* Different Font weights */
+.fw-900 {
+  font-weight: 900;
+}
+
+.fw-800 {
+  font-weight: 800;
+}
+
+.fw-700 {
+  font-weight: 700;
+}
+
+.fw-600 {
+  font-weight: 600;
+}
+
+.fw-500 {
+  font-weight: 500;
+}
+
+.fw-400 {
+  font-weight: 400;
+}
+
+.fw-300 {
+  font-weight: 300;
+}
+
+.fw-200 {
+  font-weight: 200;
+}
+
+.fw-100 {
+  font-weight: 100;
+}
+
+
+/* Text colors */
+.txt-primary {
+  color: var(--color-primary)
+}
+
+.txt-secondary {
+  color: var(--color-secondary);
+}
+
+.txt-white {
+  color: var(--color-white);
+}
+
+.txt-green {
+  color: var(--color-green);
+}
+
+.txt-red {
+  color: var(--color-red);
+}
+
+.txt-yellow {
+  color: var(--color-yellow);
+}
+
 
 /* || Root */
 :root {
@@ -154,6 +265,8 @@
   background-color: var(--color-violet-dark);
 }
 
+.cursor-p {
+  cursor: pointer;
 .bg-gray{
   background-color: var(--color-gray);
 }
@@ -259,5 +372,4 @@ iframe {
   /* object-position: top center  according to use */
 }
 
-/* || Media queries */
 /* || Media queries */
