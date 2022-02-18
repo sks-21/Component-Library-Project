@@ -267,6 +267,7 @@
 
 .cursor-p {
   cursor: pointer;
+}
 .bg-gray{
   background-color: var(--color-gray);
 }
@@ -313,6 +314,9 @@
   justify-content: center;
 }
 
+.flx-wrap{
+  flex-wrap: wrap;
+}
 /* || Spacing */
 .vertical-gutter-lg {
   margin-top: 2.4rem;

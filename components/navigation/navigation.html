@@ -5,9 +5,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Futbolt UI | Input</title>
+    <title>Futbolt UI | Navigation</title>
     <script src="https://kit.fontawesome.com/0a41da8839.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/components/input/input.css" />
+    <link rel="stylesheet" href="/components/navigation/navigation.css" />
 </head>
 
 <body>
@@ -63,18 +63,20 @@
                 <li>
                     <a href="/components/image/image.html">Image</a>
                 </li>
-                <li class="menu-list-item-active">
+                <li>
                     <a href="/components/input/input.html">Input</a>
                 </li>
                 <li>
                     <a href="/components/textutil/textutil.html">Text utilites</a>
                 </li>
-                <li><a href="/components/lists/lists.html">Lists</a></li>
                 <li>
-                    <a href="/components/navigation/navigation.html">Navigation</a>
+                    <a href="/components/lists/lists.html">Lists</a>
                 </li>
                 <li>
                     <a href="/components/modal/modal.html">Modal</a>
+                </li>
+                <li class="menu-list-item-active">
+                    <a href="/components/navigation/navigation.html">Navigation</a>
                 </li>
                 <li>
                     <a href="/components/rating/rating.html">Rating</a>
@@ -91,85 +93,78 @@
         <!-- || Main content starts  -->
         <main class="content flx-col">
             <!-- || Content Header Starts  -->
-            <div class="content-heading-lg">Input</div>
+            <div class="content-heading-lg">Navigation</div>
 
             <!-- || Content Main starts  -->
             <div class="content-main">
-                <p>The input component.</p>
+                <p>The navigation component.</p>
                 <br>
 
-                <!-- Standard Input Component -->
-                <div class="content-heading-md">Standard Input Component</div>
+                <!-- Simple Navigation-->
+                <div class="content-heading-md">Simple Navigation</div>
+
+                <nav class="navbar-1 flx-row flx-main-center">
+                    <div class="navbar-1-title">Navbar Heading</div>
+
+                    <div class="navbar-1-links">
+                        <ul class="flx-row flx-wrap navbar-1-ul">
+                            <li class="navbar-item"><a href="#" class="navbar-1-links-a">Link 1</a></li>
+                            <li class="navbar-item"><a href="#" class="navbar-1-links-a">Link 2</a></li>
+                            <li class="navbar-item"><a href="#" class="navbar-1-links-a"> Link 3</a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <br>
                 <br>
 
-                <div class="form-comp-1">
-                    <label for="std-input" class="form-label">Enter name</label>
-                    <input type="text" id="std-input" class=" form-input form-input-text brad-5 "
-                        placeholder="type your name here">
-                </div>
+                <!-- || Navigation with users  -->
+                <div class="content-heading-md">Navigation with users</div>
+                <nav class="navbar-1 flx-row flx-main-center">
+                    <div class="navbar-1-title">Navbar Heading</div>
 
-                <div class="form-comp-1">
-                    <label for="std-textarea" class="form-label">Enter address</label>
-                    <textarea name="std-textarea" id="std-textarea" cols="50" rows="5" placeholder="start writing.."
-                        class=" form-textarea"></textarea>
-                </div>
+                    <div class="navbar-1-links ">
+                        <ul class="flx-row flx-wrap flx-center navbar-1-ul">
+                            <li class="navbar-item"><a href="#" class="navbar-1-links-a">Link 1</a></li>
+                            <li class="navbar-item"><a href="#" class="navbar-1-links-a">Link 2</a></li>
+                            <li class="navbar-item"><a href="#" class="navbar-1-links-a "> Link 3</a></li>
+                            <li class="navbar-item pd-right-0"> <a href="#" class="navbar-1-links-a ">Username</a></li>
+                            <li class="navbar-item pd-left-0"> <a href="#" class="navbar-1-links-a">
+                                    <span class="avatar avatar-sm">
+                                        <img src="/assets/images/avatar-img.jpg" alt="circle-image-sm" srcset="" />
+                                    </span></a></li>
+                        </ul>
+                    </div>
+                </nav>
+                <br>
                 <br>
 
-                <!-- Input with Icons -->
-                <div class="content-heading-md">Input with Icons</div>
-                <br>
-
-                <div class="form-comp-1 flx-row flx-center">
-                    <span class="form-icon"><i class="fa fa-user icon "></i></span>
-                    <input type="text" id="std-input" class=" form-input form-input-text " placeholder="Enter username">
-                </div>
-                <div class="form-comp-1 flx-row flx-center">
-                    <span class="form-icon"><i class="fa fa-envelope icon"></i></span>
-                    <input type="text" id="std-input" class=" form-input form-input-text " placeholder="Enter email">
-                </div>
-                <div class="form-comp-1 flx-row flx-center">
-                    <span class="form-icon"><i class="fa fa-key icon"></i></span>
-                    <input type="text" id="std-input" class=" form-input form-input-pswd " placeholder="Enter password">
-                </div>
-
-                <div class="form-comp-1 flx-row flx-center">
-                    <input type="text" id="std-input" class=" form-input form-input-text" placeholder="Search"><span
-                        class="form-icon form-icon-search"><i class="fas fa-search"></i></span>
-                </div>
-
-                <br>
-
-                <!-- || Input validation  -->
-                <div class="content-heading-md">Input Validation</div>
-                <br>
-
-                <form action="#" class="form-1">
-
-                    <div class="form-comp-2">
-                        <label for="email" class="form-label">Enter email<sup class="sup-script txt-red">*</sup></label>
-                        <input type="text" id="email" class="form-input form-input-text form-error brad-5">
-                        <span class="txt-error">Invalid email</span>
+                <!-- Navigation with search bar-->
+                <div class="content-heading-md">Navigation with search bar</div>
+                <nav class="navbar-1 flx-row flx-main-center">
+                    <div class="navbar-1-title">Navbar Heading</div>
+                    <div class="form-comp-1 flx-row flx-center nav-search">
+                        <input type="text" id="std-input" class=" form-input form-input-text" placeholder="Search"><span
+                            class="form-icon form-icon-search"><i class="fas fa-search"></i></span>
                     </div>
 
-                    <div class="form-comp-2">
-                        <label for="pswd" class="form-label">Enter password<sup
-                                class="sup-script txt-red">*</sup></label>
-                        <input type="password" id="pswd" class="form-input form-error brad-5">
-                        <span class="txt-error">Wrong password. Try again</span>
+                    <div class="navbar-1-links">
+                        <ul class="flx-row flx-wrap navbar-1-ul">
+                            <li class="navbar-item"><a href="#" class="navbar-1-links-a">Link 1</a></li>
+                            <li class="navbar-item"><a href="#" class="navbar-1-links-a">Link 2</a></li>
+                            <li class="navbar-item"><a href="#" class="navbar-1-links-a"> Link 3</a></li>
+                        </ul>
                     </div>
-
-                </form>
-
+                </nav>
                 <br>
                 <br>
 
                 <!-- || Content footer starts  -->
                 <div class="content-footer flx-row">
-                    <a href="#" class="content-footer-prev"><i class="fas fa-angle-left"></i> Image
+                    <a href="#" class="content-footer-prev"><i class="fas fa-angle-left"></i> Modal
                     </a>
 
                     <a href="#" class="content-footer-next">
-                        Text utilites <i class="fas fa-angle-right"></i>
+                        Rating<i class="fas fa-angle-right"></i>
                     </a>
                 </div>
         </main>
