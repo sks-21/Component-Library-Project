@@ -1,0 +1,50 @@
+@import "/components/component.css";
+
+.toast-container {
+    border-radius: 5px;
+    padding: 1.6rem;
+    box-shadow: 0 0 5px var(--color-gray);
+    gap: 5px;
+    width: fit-content;
+}
+
+.toast-icon-container {
+    border-radius: 5px;
+    padding: 8px;
+}
+
+.toast-success-icon {
+    color: var(--color-green);
+}
+
+.toast-dismiss-icon {
+    font-size: 2rem;
+    opacity: 0.8;
+}
+
+.toast-dismiss-icon:hover {
+    cursor: pointer;
+    opacity: 0.4;
+}
+
+.toast-success {
+    background-color: var(--color-green-light);
+}
+
+/* || Toast error  */
+.toast-error {
+    background-color: var(--color-red-light);
+}
+
+.toast-error-icon {
+    color: var(--color-red);
+}
+
+/* || Toast Info  */
+.toast-info {
+    background-color: var(--color-primary-light);
+}
+
+.toast-info-icon {
+    color: var(--color-primary);
+}

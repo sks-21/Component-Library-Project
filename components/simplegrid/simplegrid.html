@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simple Grid | Futbolt UI</title>
+    <script src="https://kit.fontawesome.com/0a41da8839.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/components/simplegrid/simplegrid.css" />
+</head>
+
+<body>
+    <!-- || Container  -->
+    <div class="container">
+        <!-- || Navbar starts -->
+        <nav class="navbar flx-row flx-main-center">
+            <div class="navbar-logo">
+                <img src="/assets/images/futbolt-lg.png" alt="" loading="eager" />
+            </div>
+            <div class="navbar-title">Futbolt UI</div>
+            <div class="navbar-links">
+                <ul>
+                    <li><a href="/index.html">Home</a></li>
+                    <li><a href="#" class="navbar-links-active">Docs</a></li>
+                    <li>
+                        <a href="https://github.com/sks-21/Futbolt-Component-Library">
+                            <i class="fab fa-github"></i> Github</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <!-- || Side Menu starts   -->
+        <aside class="menu flx-column flx-main-center">
+            <ul class="menu-list">
+                <li class="menu-list-title">Getting Started</li>
+                <li>
+                    <a href="#">Installation</a>
+                </li>
+                <li>
+                    <a href="#">Typography</a>
+                </li>
+                </li>
+                <li>
+                    <a href="#">Colors</a>
+                </li>
+
+                <li class="menu-list-title">Components</li>
+                <li><a href="/components/alert/alert.html">Alert</a></li>
+                <li>
+                    <a href="/components/avatar/avatar.html">Avatar</a>
+                </li>
+                <li>
+                    <a href="/components/badge/badge.html">Badge</a>
+                </li>
+                <li>
+                    <a href="/components/button/button.html">Button</a>
+                </li>
+                <li>
+                    <a href="/components/card/card.html">Card</a>
+                </li>
+                <li>
+                    <a href="/components/image/image.html">Image</a>
+                </li>
+                <li>
+                    <a href="/components/input/input.html">Input</a>
+                </li>
+                <li>
+                    <a href="/components/textutil/textutil.html">Text utilites</a>
+                </li>
+                <li>
+                    <a href="/components/lists/lists.html">Lists</a>
+                </li>
+                <li>
+                    <a href="/components/modal/modal.html">Modal</a>
+                </li>
+                <li>
+                    <a href="/components/navigation/navigation.html">Navigation</a>
+                </li>
+                <li>
+                    <a href="/components/rating/rating.html">Rating</a>
+                </li>
+                <li>
+                    <a href="/components/toast/toast.html">Toast</a>
+                </li>
+                <li class="menu-list-item-active">
+                    <a href="/components/simplegrid/simplegrid.html">Simple Grid</a>
+                </li>
+            </ul>
+        </aside>
+
+        <!-- || Main content starts  -->
+        <main class="content flx-col">
+            <!-- || Content Header Starts  -->
+            <div class="content-heading-lg">Grids</div>
+
+            <!-- || Content Main starts  -->
+            <div class="content-main">
+                <p>The Grid component.</p>
+                <br>
+
+                <!-- Two column grid-->
+                <div class="content-heading-md">Two column grid (50:50)</div>
+                <br>
+                <div class="grid grid-2">
+                    <div class="grid-item"></div>
+                    <div class="grid-item"></div>
+                    <div class="grid-item"></div>
+                    <div class="grid-item"></div>
+                    <div class="grid-item"></div>
+                    <div class="grid-item"></div>
+                </div>
+                <br>
+                <br>
+
+                <!-- Three column grid-->
+                <div class="content-heading-md">Three column grid</div>
+                <br>
+                <div class=" grid grid-3">
+                    <div class="grid-item"></div>
+                    <div class="grid-item"></div>
+                    <div class="grid-item"></div>
+                    <div class="grid-item"></div>
+                    <div class="grid-item"></div>
+                    <div class="grid-item"></div>
+                </div>
+                <br>
+                <br>
+
+                <!-- 70:30 layout grid-->
+                <div class="content-heading-md">70:30 Grid layout</div>
+                <br>
+                <div class="grid grid-7-3">
+                    <div class="grid-item"></div>
+                    <div class="grid-item"></div>
+                </div>
+                <br>
+
+                <!-- 30:70 layout grid-->
+                <div class="content-heading-md">30:70 Grid layout</div>
+                <br>
+                <div class="grid grid-3-7">
+                    <div class="grid-item"></div>
+                    <div class="grid-item"></div>
+                </div>
+                <br>
+
+
+                <!-- || Content footer starts  -->
+                <div class="content-footer flx-row">
+                    <a href="#" class="content-footer-prev"><i class="fas fa-angle-left"></i> Rating
+                    </a>
+
+                    <a href="#" class="content-footer-next">
+                        Toast<i class="fas fa-angle-right"></i>
+                    </a>
+                </div>
+        </main>
+    </div>
+
+    <script src="/documentation/documentation.js"></script>
+</body>
+
+</html>
