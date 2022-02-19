@@ -1,0 +1,41 @@
+@import "/components/component.css";
+
+.modal-container {
+    width: 70rem;
+    border: 2px solid var(--color-gray);
+    border-radius: 5px;
+    padding: 1.6rem 1.6rem;
+    height: 40rem;
+    position: relative;
+}
+
+.modal-dismiss {
+    position: absolute;
+    left: 95%;
+}
+
+.modal-dismiss-icon {
+    font-size: 1.6rem;
+}
+
+.modal-dismiss-icon:hover {
+    cursor: pointer;
+    opacity: 0.8;
+}
+
+.modal-content {
+    height: 100%;
+}
+
+
+.modal-heading {
+    color: var(--color-secondary);
+    font-size: 4rem;
+    font-weight: bold;
+
+}
+
+.modal-desc {
+    padding: 0 4rem;
+    font-size: 1.4rem;
+}
