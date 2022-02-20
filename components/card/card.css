@@ -67,7 +67,6 @@
 
 .card-review-rating {
   margin: 0rem;
-  color: var(--color-black);
   display: inline-block;
 }
 
@@ -91,12 +90,16 @@
 
 .card-btn {
   margin: 0.8rem 0 0 0;
-  color: var(--color-black);
+  color: var(--color-white);
   width: 100%;
 }
 
+.car-outline-btn {
+  color: var(--color-primary);
+}
+
 .card-btn:hover {
-  opacity: 0.9;
+  opacity: 0.8;
 }
 
 .card-delivery {
