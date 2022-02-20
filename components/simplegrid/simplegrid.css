@@ -1,5 +1,3 @@
-@import "/components/component.css";
-
 .grid-item {
     height: 20rem;
     background-color: var(--color-gray);

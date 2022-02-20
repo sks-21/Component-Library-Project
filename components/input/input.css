@@ -1,5 +1,3 @@
-@import "/components/component.css";
-
 /* || Individual Component - type 1  */
 .form-comp-1 {
     border: 2px solid var(--color-gray);

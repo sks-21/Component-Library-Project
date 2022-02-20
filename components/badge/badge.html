@@ -1,239 +1,215 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Futbolt UI|Badge</title>
-    <script
-      src="https://kit.fontawesome.com/0a41da8839.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="/components/badge/badge.css" />
-  </head>
 
-  <body>
-    <!-- || Container  -->
-    <div class="container">
-      <!-- || Navbar starts -->
-      <nav class="navbar flx-row flx-main-center">
-        <div class="navbar-logo">
-          <img src="/assets/images/futbolt-lg.png" alt="" loading="eager" />
-        </div>
-        <div class="navbar-title">Futbolt UI</div>
-        <div class="navbar-links">
-          <ul>
-            <li><a href="/index.html">Home</a></li>
-            <li><a href="#" class="navbar-links-active">Docs</a></li>
-            <li>
-              <a href="https://github.com/sks-21/Futbolt-Component-Library">
-                <i class="fab fa-github"></i> Github</a
-              >
-            </li>
-          </ul>
-        </div>
-      </nav>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title> Badge | Futbolt UI</title>
+  <script src="https://kit.fontawesome.com/0a41da8839.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="/components/component.css" />
+</head>
 
-      <!-- || Side Menu starts   -->
-      <aside class="menu flx-column flx-main-center">
-        <ul class="menu-list">
-          <li class="menu-list-title">Contents</li>
-
-          <li><a href="/components/alert/alert.html">Alert</a></li>
+<body>
+  <!-- || Container  -->
+  <div class="container">
+    <!-- || Navbar starts -->
+    <nav class="navbar flx-row flx-main-center">
+      <div class="navbar-logo">
+        <img src="/assets/images/futbolt-lg.png" alt="" loading="eager" />
+      </div>
+      <div class="navbar-title">Futbolt UI</div>
+      <div class="navbar-links">
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="#" class="navbar-links-active">Docs</a></li>
           <li>
-            <a href="/components/avatar/avatar.html">Avatar</a>
-          </li>
-          <li class="menu-list-item-active">
-            <a href="/components/badge/badge.html">Badge</a>
-          </li>
-          <li>
-            <a href="/components/button/button.html">Button</a>
-          </li>
-          <li>
-            <a href="/components/card/card.html">Card</a>
-          </li>
-          <li>
-            <a href="/components/image/image.html">Image</a>
-          </li>
-          <li>
-            <a href="/components/input/badge.html">Input</a>
-          </li>
-          <li>
-            <a href="/components/textutil/textutil.html">Text utilites</a>
-          </li>
-          <li><a href="/components/lists/lists.html">Lists</a></li>
-          <li>
-            <a href="/components/navigation/navigation.html">Navigation</a>
-          </li>
-          <li>
-            <a href="/components/modal/modal.html">Modal</a>
-          </li>
-          <li>
-            <a href="/components/rating/rating.html">Rating</a>
-          </li>
-          <li>
-            <a href="/components/toast/toast.html">Toast</a>
-          </li>
-          <li>
-            <a href="/components/grid/grid.html">Simple Grid</a>
+            <a href="https://github.com/sks-21/Futbolt-Component-Library">
+              <i class="fab fa-github"></i> Github</a>
           </li>
         </ul>
-      </aside>
+      </div>
+    </nav>
 
-      <!-- || Main content starts  -->
-      <main class="content flx-col">
-        <!-- || Content Header Starts  -->
-        <div class="content-heading-lg">Badge</div>
+    <!-- || Side Menu starts   -->
+    <aside class="menu flx-col flx-main-center">
+      <ul class="menu-list">
+        <li class="menu-list-title">Getting Started</li>
+        <li>
+          <a href="/documentation/documentation.html">Installation</a>
+        </li>
+        <li>
+          <a href="/typography/typography.html">Typography</a>
+        </li>
+        <li>
+          <a href="/colorspage/colorspage.html">Colors</a>
+        </li>
 
-        <!-- || Content Main starts  -->
-        <div class="content-main">
-          <p>The badge component.</p>
-          <!-- || Profile badges  -->
+        <li class="menu-list-title">Components</li>
+        <li><a href="/components/alert/alert.html">Alert</a></li>
+        <li>
+          <a href="/components/avatar/avatar.html">Avatar</a>
+        </li>
+        <li class="menu-list-item-active">
+          <a href="#">Badge</a>
+        </li>
+        <li>
+          <a href="/components/button/button.html">Button</a>
+        </li>
+        <li>
+          <a href="/components/card/card.html">Card</a>
+        </li>
+        <li>
+          <a href="/components/image/image.html">Image</a>
+        </li>
+        <li>
+          <a href="/components/input/input.html">Input</a>
+        </li>
+        <li>
+          <a href="/components/list/list.html">Lists</a>
+        </li>
+        <li>
+          <a href="/components/modal/modal.html">Modal</a>
+        </li>
+        <li> <a href="/components/navigation/navigation.html">Navigation</a>
+        </li>
+        <li>
+          <a href="/components/rating/rating.html">Rating</a>
+        </li>
+        <li>
+          <a href="/components/simplegrid/simplegrid.html">Simple Grid</a>
+        </li>
+        <li>
+          <a href="/components/textutils/textutils.html">Text utilites</a>
+        </li>
+        <li>
+          <a href="/components/toast/toast.html">Toast</a>
+        </li>
 
-          <div class="content-heading-md">Profile Badges</div>
-          <div class="avatar avatar-xlg">
-            <img
-              src="/assets/images/avatar-img.jpg"
-              alt="circle-image-xlg"
-              srcset=""
-            />
-            <span class="badge"><i class="fas fa-circle"></i></span>
-          </div>
+      </ul>
+    </aside>
+    <!-- || Main content starts  -->
+    <main class="content flx-col">
+      <!-- || Content Header Starts  -->
+      <div class="content-heading-lg">Badge</div>
 
-          <div class="avatar avatar-lg">
-            <img
-              src="/assets/images/avatar-img.jpg"
-              alt="circle-image-lg"
-              srcset=""
-            />
-            <span class="badge">
-              <i class="fas fa-circle"></i>
-            </span>
-          </div>
+      <!-- || Content Main starts  -->
+      <div class="content-main">
+        <p>The badge component.</p>
+        <!-- || Profile badges  -->
 
-          <div class="avatar avatar-md">
-            <img
-              src="/assets/images/avatar-img.jpg"
-              alt="circle-image-md"
-              srcset=""
-            />
-            <span class="badge"><i class="fas fa-circle"></i></span>
-          </div>
-
-          <div class="avatar avatar-sm">
-            <img
-              src="/assets/images/avatar-img.jpg"
-              alt="circle-image-sm"
-              srcset=""
-            />
-            <span class="badge"> <i class="fas fa-circle i-sm"></i></span>
-          </div>
-
-          <br />
-
-          <!-- ||Status badges -->
-
-          <div class="content-heading-md">Status badges</div>
-
-          <div class="avatar avatar-lg">
-            <img
-              src="/assets/images/avatar-img.jpg"
-              alt="circle-image-lg"
-              srcset=""
-            />
-            <span class="badge">
-              <i class="fas fa-circle"></i>
-            </span>
-          </div>
-
-          <div class="avatar avatar-lg">
-            <img
-              src="/assets/images/avatar-img.jpg"
-              alt="circle-image-lg"
-              srcset=""
-            />
-            <span class="badge">
-              <i class="fas fa-moon fa-flip-horizontal"></i>
-            </span>
-          </div>
-
-          <div class="avatar avatar-lg">
-            <img
-              src="/assets/images/avatar-img.jpg"
-              alt="circle-image-lg"
-              srcset=""
-            />
-            <span class="badge">
-              <i class="fas fa-minus-circle"></i>
-            </span>
-          </div>
-
-          <div class="avatar avatar-lg">
-            <img
-              src="/assets/images/avatar-img.jpg"
-              alt="circle-image-lg"
-              srcset=""
-            />
-            <span class="badge"><i class="fas fa-dot-circle"></i> </span>
-          </div>
-          <div class="content-heading-md">Badges on icons</div>
-
-          <div class="badge-container">
-            <div class="badge-icon">
-              <i class="fas fa-circle"></i>
-            </div>
-            <i class="fas fa-envelope"></i>
-          </div>
-
-          <div class="badge-container">
-            <div class="badge-num">45+</div>
-            <i class="fas fa-bell"></i>
-          </div>
-
-          <div class="badge-container">
-            <div class="badge-num">9+</div>
-            <i class="fab fa-whatsapp-square"></i>
-          </div>
-
-          <div class="badge-container">
-            <div class="badge-num">99+</div>
-            <i class="fab fa-instagram-square"></i>
-          </div>
-
-          <div class="badge-container">
-            <div class="badge-icon">
-              <i class="fas fa-circle"></i>
-            </div>
-            <i class="fas fa-shopping-cart"></i>
-          </div>
-
-          <br />
-
-          <!-- ||Pill badges -->
-
-          <div class="content-heading-md">Pill Badges</div>
-          <br />
-          <span class="badge-pill bg-primary">Primary</span>
-          <span class="badge-pill bg-gray">Secondary</span>
-          <span class="badge-pill bg-green">Success</span>
-          <span class="badge-pill bg-yellow">Warning</span>
-          <span class="badge-pill bg-red">Error</span>
+        <div class="content-heading-md">Profile Badges</div>
+        <div class="avatar avatar-xlg">
+          <img src="/assets/images/avatar-img.jpg" alt="circle-image-xlg" srcset="" />
+          <span class="badge"><i class="fas fa-circle"></i></span>
         </div>
+
+        <div class="avatar avatar-lg">
+          <img src="/assets/images/avatar-img.jpg" alt="circle-image-lg" srcset="" />
+          <span class="badge">
+            <i class="fas fa-circle"></i>
+          </span>
+        </div>
+
+        <div class="avatar avatar-md">
+          <img src="/assets/images/avatar-img.jpg" alt="circle-image-md" srcset="" />
+          <span class="badge"><i class="fas fa-circle"></i></span>
+        </div>
+
+        <div class="avatar avatar-sm">
+          <img src="/assets/images/avatar-img.jpg" alt="circle-image-sm" srcset="" />
+          <span class="badge"> <i class="fas fa-circle i-sm"></i></span>
+        </div>
+
         <br />
-        <!-- || Content main ends -->
-        <!-- || Content footer starts  -->
-        <div class="content-footer flx-row">
-          <a href="" class="content-footer-prev"
-            ><i class="fas fa-angle-left"></i> Alert
-          </a>
 
-          <a href="" class="content-footer-next">
-            Button <i class="fas fa-angle-right"></i>
-          </a>
+        <!-- ||Status badges -->
+
+        <div class="content-heading-md">Status badges</div>
+
+        <div class="avatar avatar-lg">
+          <img src="/assets/images/avatar-img.jpg" alt="circle-image-lg" srcset="" />
+          <span class="badge">
+            <i class="fas fa-circle"></i>
+          </span>
         </div>
-      </main>
-    </div>
 
-    <script src="/documentation/documentation.js"></script>
-  </body>
+        <div class="avatar avatar-lg">
+          <img src="/assets/images/avatar-img.jpg" alt="circle-image-lg" srcset="" />
+          <span class="badge">
+            <i class="fas fa-moon fa-flip-horizontal"></i>
+          </span>
+        </div>
+
+        <div class="avatar avatar-lg">
+          <img src="/assets/images/avatar-img.jpg" alt="circle-image-lg" srcset="" />
+          <span class="badge">
+            <i class="fas fa-minus-circle"></i>
+          </span>
+        </div>
+
+        <div class="avatar avatar-lg">
+          <img src="/assets/images/avatar-img.jpg" alt="circle-image-lg" srcset="" />
+          <span class="badge"><i class="fas fa-dot-circle"></i> </span>
+        </div>
+        <div class="content-heading-md">Badges on icons</div>
+
+        <div class="badge-container">
+          <div class="badge-icon">
+            <i class="fas fa-circle"></i>
+          </div>
+          <i class="fas fa-envelope"></i>
+        </div>
+
+        <div class="badge-container">
+          <div class="badge-num">45+</div>
+          <i class="fas fa-bell"></i>
+        </div>
+
+        <div class="badge-container">
+          <div class="badge-num">9+</div>
+          <i class="fab fa-whatsapp-square"></i>
+        </div>
+
+        <div class="badge-container">
+          <div class="badge-num">99+</div>
+          <i class="fab fa-instagram-square"></i>
+        </div>
+
+        <div class="badge-container">
+          <div class="badge-icon">
+            <i class="fas fa-circle"></i>
+          </div>
+          <i class="fas fa-shopping-cart"></i>
+        </div>
+
+        <br />
+
+        <!-- ||Pill badges -->
+
+        <div class="content-heading-md">Pill Badges</div>
+        <br />
+        <span class="badge-pill bg-primary">Primary</span>
+        <span class="badge-pill bg-gray">Secondary</span>
+        <span class="badge-pill bg-green">Success</span>
+        <span class="badge-pill bg-yellow">Warning</span>
+        <span class="badge-pill bg-red">Error</span>
+      </div>
+      <br />
+      <!-- || Content main ends -->
+      <!-- || Content footer starts  -->
+      <div class="content-footer flx-row">
+        <a href="/components/avatar/avatar.html" class="content-footer-prev"><i class="fas fa-angle-left"></i> Avatar
+        </a>
+
+        <a href="/components/button/button.html" class="content-footer-next">
+          Button <i class="fas fa-angle-right"></i>
+        </a>
+      </div>
+    </main>
+  </div>
+
+  <script src="/documentation/documentation.js"></script>
+</body>
+
 </html>
