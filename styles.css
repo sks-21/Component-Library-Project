@@ -268,26 +268,11 @@
 .cursor-p {
   cursor: pointer;
 }
-.bg-gray{
+
+.bg-gray {
   background-color: var(--color-gray);
 }
 
-/* ||Text colors */
-.txt-white {
-  color: var(--color-white);
-}
-
-.txt-green {
-  color: var(--color-green);
-}
-
-.txt-red {
-  color: var(--color-red);
-}
-
-.txt-yellow {
-  color: var(--color-yellow);
-}
 
 /* || Flex properties */
 .flx-row {
@@ -314,8 +299,16 @@
   justify-content: center;
 }
 
-.flx-wrap{
+.flx-wrap {
   flex-wrap: wrap;
+}
+
+.flx-space-between{
+  justify-content: space-between;
+}
+
+.flx-grow-0{
+  flex-grow: 0;
 }
 /* || Spacing */
 .vertical-gutter-lg {
@@ -328,6 +321,59 @@
 
 .vertical-gutter-sm {
   margin-top: 0.8rem;
+}
+
+/* || Margin  */
+.margin-8 {
+  margin: 8px;
+}
+
+.margin-x-8 {
+  margin: 0 8px;
+}
+
+.margin-y-8 {
+  margin: 8px 0;
+}
+
+.margin-16 {
+  margin: 8px;
+}
+
+.margin-x-16 {
+  margin: 0 16px;
+}
+
+.margin-y-16 {
+  margin: 16px 0;
+}
+
+.margin-32 {
+  margin: 32px;
+}
+
+.margin-x-32 {
+  margin: 0 32px;
+}
+
+.margin-y-32 {
+  margin: 32px 0;
+}
+
+.margin-64 {
+  margin: 64px;
+}
+
+.margin-x-64 {
+  margin: 0 64px;
+}
+
+.margin-y-64 {
+  margin: 64px 0;
+}
+
+.margin-auto {
+  margin: auto;
 }
 
 /* || Border radius */
@@ -343,25 +389,27 @@
   border-radius: 15px;
 }
 
-.pd-1 {
+/* || Padding  */
+.pd-4 {
   padding: 4px;
 }
 
-.pd-2 {
+.pd-8 {
   padding: 8px;
 }
 
-.pd-3 {
+.pd-16 {
   padding: 16px;
 }
 
-.pd-4 {
+.pd-24 {
   padding: 24px;
 }
 
-.pd-5 {
+.pd-32 {
   padding: 32px;
 }
+
 /* || Imagery */
 
 img,
