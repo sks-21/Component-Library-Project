@@ -1,5 +1,3 @@
-@import "/components//component.css";
-
 .comp-container-heading {
     border: 2px solid var(--color-gray);
     border-radius: 5px;

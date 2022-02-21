@@ -1,5 +1,3 @@
-@import "/components/component.css";
-
 .avatar {
   border-radius: 50%;
   color: var(--color-offwhite);
@@ -44,6 +42,6 @@
 }
 
 .avatar-iframe iframe {
-width: 70rem;
-height: 30rem;
+  width: 70rem;
+  height: 30rem;
 }

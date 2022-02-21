@@ -1,142 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Futbolt UI|Avatar</title>
-    <script
-      src="https://kit.fontawesome.com/0a41da8839.js"
-      crossorigin="anonymous"
-    ></script>
-    <link rel="stylesheet" href="/components/avatar/avatar.css" />
-  </head>
 
-  <body>
-    <!-- || Container  -->
-    <div class="container">
-      <!-- || Navbar starts -->
-      <nav class="navbar flx-row flx-main-center">
-        <div class="navbar-logo">
-          <img src="/assets/images/futbolt-lg.png" alt="" loading="eager" />
-        </div>
-        <div class="navbar-title">Futbolt UI</div>
-        <div class="navbar-links">
-          <ul>
-            <li><a href="/index.html">Home</a></li>
-            <li><a href="#" class="navbar-links-active">Docs</a></li>
-            <li>
-              <a href="https://github.com/sks-21/Futbolt-Component-Library">
-                <i class="fab fa-github"></i> Github</a
-              >
-            </li>
-          </ul>
-        </div>
-      </nav>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Avatar | Futbolt UI</title>
+  <script src="https://kit.fontawesome.com/0a41da8839.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="/components/component.css" />
 
-      <!-- || Side Menu starts   -->
-      <aside class="menu flx-column flx-main-center">
-        <ul class="menu-list">
-          <li class="menu-list-title">Contents</li>
+</head>
 
-          <li><a href="/components/alert/alert.html">Alert</a></li>
-          <li class="menu-list-item-active">
-            <a href="/components/avatar/avatar.html">Avatar</a>
-          </li>
-          <li>
-            <a href="/components/badge/badge.html">Badge</a>
-          </li>
-          <li>
-            <a href="/components/button/button.html">Button</a>
-          </li>
-          <li>
-            <a href="/components/card/card.html">Card</a>
-          </li>
-          <li>
-            <a href="/components/image/image.html">Image</a>
-          </li>
-          <li>
-            <a href="/components/input/badge.html">Input</a>
-          </li>
-          <li>
-            <a href="/components/textutil/textutil.html">Text utilites</a>
-          </li>
-          <li><a href="/components/lists/lists.html">Lists</a></li>
-          <li>
-            <a href="/components/navigation/navigation.html">Navigation</a>
-          </li>
-          <li>
-            <a href="/components/modal/modal.html">Modal</a>
-          </li>
-          <li>
-            <a href="/components/rating/rating.html">Rating</a>
-          </li>
-          <li>
-            <a href="/components/toast/toast.html">Toast</a>
-          </li>
-          <li>
-            <a href="/components/grid/grid.html">Simple Grid</a>
+<body>
+  <!-- || Container  -->
+  <div class="container">
+    <!-- || Navbar starts -->
+    <nav class="navbar flx-row flx-main-center">
+      <div class="navbar-logo">
+        <img src="/assets/images/futbolt-lg.png" alt="" loading="eager" class="navbar-logo-img" />
+      </div>
+      <div class="navbar-title">Futbolt UI</div>
+      <div class="navbar-links-container">
+        <ul class="navbar-list">
+          <li class="navbar-list-item"><a href="/index.html" class="navbar-link">Home</a></li>
+          <li class="navbar-list-item"><a href="#" class=" navbar-link navbar-link-active">Docs</a></li>
+          <li class="navbar-list-item">
+            <a href="https://github.com/sks-21/Futbolt-Component-Library" class="navbar-link">
+              <i class="fab fa-github"></i> Github</a>
           </li>
         </ul>
-      </aside>
+      </div>
+    </nav>
 
-      <!-- || Main content starts  -->
-      <main class="content flx-col">
-        <!-- || Content Header Starts  -->
-        <div class="content-heading-lg">Avatar</div>
+    <!-- || Side Menu starts   -->
+    <aside class="menu flx-col flx-main-center">
+      <ul class="menu-list">
+        <li class="menu-list-title">Getting Started</li>
+        <li>
+          <a href="/documentation/documentation.html">Installation</a>
+        </li>
+        <li>
+          <a href="/typography/typography.html">Typography</a>
+        </li>
+        <li>
+          <a href="/colorspage/colorspage.html">Colors</a>
+        </li>
 
-        <!-- || Content Main starts  -->
-        <div class="content-main">
-          <p>
-            The avatar component is used to reperesent a <b>user</b>. It can be
-            used as a profile picture or intials.
-          </p>
+        <li class="menu-list-title">Components</li>
+        <li><a href="/components/alert/alert.html">Alert</a></li>
+        <li class="menu-list-item-active">
+          <a href="#">Avatar</a>
+        </li>
+        <li>
+          <a href="/components/badge/badge.html">Badge</a>
+        </li>
+        <li>
+          <a href="/components/button/button.html">Button</a>
+        </li>
+        <li>
+          <a href="/components/card/card.html">Card</a>
+        </li>
+        <li>
+          <a href="/components/image/image.html">Image</a>
+        </li>
+        <li>
+          <a href="/components/input/input.html">Input</a>
+        </li>
+        <li>
+          <a href="/components/list/list.html">Lists</a>
+        </li>
+        <li>
+          <a href="/components/modal/modal.html">Modal</a>
+        </li>
+        <li> <a href="/components/navigation/navigation.html">Navigation</a>
+        </li>
+        <li>
+          <a href="/components/rating/rating.html">Rating</a>
+        </li>
+        <li>
+          <a href="/components/simplegrid/simplegrid.html">Simple Grid</a>
+        </li>
+        <li>
+          <a href="/components/textutils/textutils.html">Text utilites</a>
+        </li>
+        <li>
+          <a href="/components/toast/toast.html">Toast</a>
+        </li>
 
-          <!-- Image Avatar -->
+      </ul>
+    </aside>
 
-          <div class="content-heading-md">Image Avatar</div>
-          <p></p>
-          <div class="avatar avatar-xlg">
-            <img
-              src="/assets/images/avatar-img.jpg"
-              alt="circle-image-xlg"
-              srcset=""
-            />
-          </div>
+    <!-- || Main content starts  -->
+    <main class="content flx-col">
+      <!-- || Content Header Starts  -->
+      <div class="content-heading-lg">Avatar</div>
 
-          <div class="avatar avatar-lg">
-            <img
-              src="/assets/images/avatar-img.jpg"
-              alt="circle-image-lg"
-              srcset=""
-            />
-          </div>
+      <!-- || Content Main starts  -->
+      <div class="content-main">
+        <p>
+          The avatar component is used to reperesent a <b>user</b>. It can be
+          used as a profile picture or intials.
+        </p>
 
-          <div class="avatar avatar-md">
-            <img
-              src="/assets/images/avatar-img.jpg"
-              alt="circle-image-md"
-              srcset=""
-            />
-          </div>
+        <!-- Image Avatar -->
 
-          <div class="avatar avatar-sm">
-            <img
-              src="/assets/images/avatar-img.jpg"
-              alt="circle-image-sm"
-              srcset=""
-            />
-          </div>
+        <div class="content-heading-md">Image Avatar</div>
+        <p></p>
+        <div class="avatar avatar-xlg">
+          <img src="/assets/images/avatar-img.jpg" alt="circle-image-xlg" srcset="" />
+        </div>
 
-          <br />
+        <div class="avatar avatar-lg">
+          <img src="/assets/images/avatar-img.jpg" alt="circle-image-lg" srcset="" />
+        </div>
 
-          <div class="avatar-iframe">
-            <iframe
-              src="https://www.thiscodeworks.com/embed/62060a6da4f5770015a8851a"
-              frameborder="0"
-            ></iframe>
-      
-            <br>
+        <div class="avatar avatar-md">
+          <img src="/assets/images/avatar-img.jpg" alt="circle-image-md" srcset="" />
+        </div>
+
+        <div class="avatar avatar-sm">
+          <img src="/assets/images/avatar-img.jpg" alt="circle-image-sm" srcset="" />
+        </div>
+
+        <br />
+
+        <div class="avatar-iframe">
+          <iframe src="https://www.thiscodeworks.com/embed/62060a6da4f5770015a8851a" frameborder="0"></iframe>
+
+          <br>
           <!-- Text Avatar -->
 
           <div class="content-heading-md">Text Avatar</div>
@@ -159,17 +150,17 @@
 
         <!-- || Content footer starts  -->
         <div class="content-footer flx-row">
-          <a href="" class="content-footer-prev"
-            ><i class="fas fa-angle-left"></i> Alert
+          <a href="/components/alert/alert.html" class="content-footer-prev"><i class="fas fa-angle-left"></i> Alert
           </a>
 
-          <a href="" class="content-footer-next">
+          <a href="/components/badge/badge.html" class="content-footer-next">
             Badge <i class="fas fa-angle-right"></i>
           </a>
         </div>
-      </main>
-    </div>
+    </main>
+  </div>
 
-    <script src="/documentation/documentation.js"></script>
-  </body>
+  <script src="/documentation/documentation.js"></script>
+</body>
+
 </html>

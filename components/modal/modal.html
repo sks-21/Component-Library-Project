@@ -5,9 +5,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Futbolt UI | Modal</title>
+    <title>Modal | Futbolt UI</title>
     <script src="https://kit.fontawesome.com/0a41da8839.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/components/modal/modal.css" />
+    <link rel="stylesheet" href="/components/component.css" />
 </head>
 
 <body>
@@ -16,15 +16,15 @@
         <!-- || Navbar starts -->
         <nav class="navbar flx-row flx-main-center">
             <div class="navbar-logo">
-                <img src="/assets/images/futbolt-lg.png" alt="" loading="eager" />
+                <img src="/assets/images/futbolt-lg.png" alt="" loading="eager" class="navbar-logo-img" />
             </div>
             <div class="navbar-title">Futbolt UI</div>
-            <div class="navbar-links">
-                <ul>
-                    <li><a href="/index.html">Home</a></li>
-                    <li><a href="#" class="navbar-links-active">Docs</a></li>
-                    <li>
-                        <a href="https://github.com/sks-21/Futbolt-Component-Library">
+            <div class="navbar-links-container">
+                <ul class="navbar-list">
+                    <li class="navbar-list-item"><a href="/index.html" class="navbar-link">Home</a></li>
+                    <li class="navbar-list-item"><a href="#" class=" navbar-link navbar-link-active">Docs</a></li>
+                    <li class="navbar-list-item">
+                        <a href="https://github.com/sks-21/Futbolt-Component-Library" class="navbar-link">
                             <i class="fab fa-github"></i> Github</a>
                     </li>
                 </ul>
@@ -32,18 +32,17 @@
         </nav>
 
         <!-- || Side Menu starts   -->
-        <aside class="menu flx-column flx-main-center">
+        <aside class="menu flx-col flx-main-center">
             <ul class="menu-list">
                 <li class="menu-list-title">Getting Started</li>
                 <li>
-                    <a href="#">Installation</a>
+                    <a href="/documentation/documentation.html">Installation</a>
                 </li>
                 <li>
-                    <a href="#">Typography</a>
-                </li>
+                    <a href="/typography/typography.html">Typography</a>
                 </li>
                 <li>
-                    <a href="#">Colors</a>
+                    <a href="/colorspage/colorspage.html">Colors</a>
                 </li>
 
                 <li class="menu-list-title">Components</li>
@@ -67,26 +66,26 @@
                     <a href="/components/input/input.html">Input</a>
                 </li>
                 <li>
-                    <a href="/components/textutil/textutil.html">Text utilites</a>
-                </li>
-                <li>
-                    <a href="/components/lists/lists.html">Lists</a>
+                    <a href="/components/list/list.html">Lists</a>
                 </li>
                 <li class="menu-list-item-active">
-                    <a href="/components/modal/modal.html">Modal</a>
+                    <a href="#">Modal</a>
                 </li>
-                <li>
-                    <a href="/components/navigation/navigation.html">Navigation</a>
+                <li> <a href="/components/navigation/navigation.html">Navigation</a>
                 </li>
                 <li>
                     <a href="/components/rating/rating.html">Rating</a>
                 </li>
                 <li>
-                    <a href="/components/toast/toast.html">Toast</a>
+                    <a href="/components/simplegrid/simplegrid.html">Simple Grid</a>
                 </li>
                 <li>
-                    <a href="/components/grid/grid.html">Simple Grid</a>
+                    <a href="/components/textutils/textutils.html">Text utilites</a>
                 </li>
+                <li>
+                    <a href="/components/toast/toast.html">Toast</a>
+                </li>
+
             </ul>
         </aside>
 
@@ -121,10 +120,11 @@
                 <br>
                 <!-- || Content footer starts  -->
                 <div class="content-footer flx-row">
-                    <a href="#" class="content-footer-prev"><i class="fas fa-angle-left"></i> Lists
+                    <a href="/components/list/list.html" class="content-footer-prev"><i class="fas fa-angle-left"></i>
+                        Lists
                     </a>
 
-                    <a href="#" class="content-footer-next">
+                    <a href="/components/navigation/navigation.html" class="content-footer-next">
                         Navigation<i class="fas fa-angle-right"></i>
                     </a>
                 </div>

@@ -5,9 +5,11 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Rating | Futbolt UI</title>
+    <title>Typography | Futbolt UI</title>
+    <link rel="stylesheet" href="/documentation/documentation.css" />
     <script src="https://kit.fontawesome.com/0a41da8839.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/components/component.css" />
+    <link rel="stylesheet" href="/typography/typography.css">
 </head>
 
 <body>
@@ -30,12 +32,13 @@
                 </ul>
             </div>
         </nav>
+
         <!-- || Side Menu starts   -->
         <aside class="menu flx-col flx-main-center">
             <ul class="menu-list">
                 <li class="menu-list-title">Getting Started</li>
-                <li>
-                    <a href="/documentation/documentation.html">Installation</a>
+                <li class="menu-list-item-active">
+                    <a href="#">Installation</a>
                 </li>
                 <li>
                     <a href="/typography/typography.html">Typography</a>
@@ -72,8 +75,8 @@
                 </li>
                 <li> <a href="/components/navigation/navigation.html">Navigation</a>
                 </li>
-                <li class="menu-list-item-active">
-                    <a href="#">Rating</a>
+                <li>
+                    <a href="/components/rating/rating.html">Rating</a>
                 </li>
                 <li>
                     <a href="/components/simplegrid/simplegrid.html">Simple Grid</a>
@@ -91,62 +94,27 @@
         <!-- || Main content starts  -->
         <main class="content flx-col">
             <!-- || Content Header Starts  -->
-            <div class="content-heading-lg">Rating</div>
+            <div class="content-heading-lg">Typography</div>
 
             <!-- || Content Main starts  -->
             <div class="content-main">
-                <p>The Rating component.</p>
-                <br>
 
-                <!-- || Star rating  -->
-                <div class="content-heading-md">Star rating</div>
+            </div>
+            <!-- || Content main ends -->
+            <!-- || Content footer starts  -->
+            <div class="content-footer flx-row">
+                <a href="/documentation/documentation.html" class="content-footer-prev"><i
+                        class="fas fa-angle-left"></i> Installation
+                </a>
 
-                <div class="rating-container flx-row">
-                    <label class="rating-label">
-                        <input type="checkbox" name="" id="" class="rating-input" checked>
-                        <i class="fas fa-star rating-star-icon rating-star-active"></i>
-                    </label>
-                    <label>
-                        <input type="checkbox" name="" id="" class="rating-input" checked>
-                        <i class="fas fa-star rating-star-icon rating-star-active"></i>
-                    </label>
-                    <label>
-                        <input type="checkbox" name="" id="" class="rating-input">
-                        <i class="fas fa-star rating-star-icon"></i>
-                    </label>
-                    <label>
-                        <input type="checkbox" name="" id="" class="rating-input">
-                        <i class="fas fa-star rating-star-icon"></i>
-                    </label>
-                    <label>
-                        <input type="checkbox" name="" id="" class="rating-input">
-                        <i class="fas fa-star rating-star-icon"></i>
-                    </label>
-                </div>
-                <br>
-                <br>
-
-                <!-- || Badge rating -->
-                <div class="content-heading-md">Badge rating</div>
-
-                <div class="rating-container rating-badge">
-                    <span class="rating-val">3 <i class="fas fa-star rating-star-icon rating-star-active"></i></span>
-                    <span class="rating-review"> | 22,417</span>
-                </div>
-                <br>
-                <br>
-
-                <!-- || Content footer starts  -->
-                <div class="content-footer flx-row">
-                    <a href="/components/navigation/navigation.html" class="content-footer-prev"><i
-                            class="fas fa-angle-left"></i> Navigation
-                    </a>
-                    <a href="/components/simplegrid/simplegrid.html" class="content-footer-next">
-                        Simple Grid<i class="fas fa-angle-right"></i>
-                    </a>
-                </div>
+                <a href="/colorspage/colorspage.html" class="content-footer-next">
+                    Colors <i class="fas fa-angle-right"></i>
+                </a>
+            </div>
         </main>
     </div>
+
+
 
     <script src="/documentation/documentation.js"></script>
 </body>

@@ -5,9 +5,9 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Futbolt UI | Navigation</title>
+    <title>Navigation | Futbolt UI</title>
     <script src="https://kit.fontawesome.com/0a41da8839.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/components/navigation/navigation.css" />
+    <link rel="stylesheet" href="/components/component.css" />
 </head>
 
 <body>
@@ -16,34 +16,32 @@
         <!-- || Navbar starts -->
         <nav class="navbar flx-row flx-main-center">
             <div class="navbar-logo">
-                <img src="/assets/images/futbolt-lg.png" alt="" loading="eager" />
+                <img src="/assets/images/futbolt-lg.png" alt="" loading="eager" class="navbar-logo-img" />
             </div>
             <div class="navbar-title">Futbolt UI</div>
-            <div class="navbar-links">
-                <ul>
-                    <li><a href="/index.html">Home</a></li>
-                    <li><a href="#" class="navbar-links-active">Docs</a></li>
-                    <li>
-                        <a href="https://github.com/sks-21/Futbolt-Component-Library">
+            <div class="navbar-links-container">
+                <ul class="navbar-list">
+                    <li class="navbar-list-item"><a href="/index.html" class="navbar-link">Home</a></li>
+                    <li class="navbar-list-item"><a href="#" class=" navbar-link navbar-link-active">Docs</a></li>
+                    <li class="navbar-list-item">
+                        <a href="https://github.com/sks-21/Futbolt-Component-Library" class="navbar-link">
                             <i class="fab fa-github"></i> Github</a>
                     </li>
                 </ul>
             </div>
         </nav>
-
         <!-- || Side Menu starts   -->
-        <aside class="menu flx-column flx-main-center">
+        <aside class="menu flx-col flx-main-center">
             <ul class="menu-list">
                 <li class="menu-list-title">Getting Started</li>
                 <li>
-                    <a href="#">Installation</a>
+                    <a href="/documentation/documentation.html">Installation</a>
                 </li>
                 <li>
-                    <a href="#">Typography</a>
-                </li>
+                    <a href="/typography/typography.html">Typography</a>
                 </li>
                 <li>
-                    <a href="#">Colors</a>
+                    <a href="/colorspage/colorspage.html">Colors</a>
                 </li>
 
                 <li class="menu-list-title">Components</li>
@@ -67,29 +65,29 @@
                     <a href="/components/input/input.html">Input</a>
                 </li>
                 <li>
-                    <a href="/components/textutil/textutil.html">Text utilites</a>
-                </li>
-                <li>
-                    <a href="/components/lists/lists.html">Lists</a>
+                    <a href="/components/list/list.html">Lists</a>
                 </li>
                 <li>
                     <a href="/components/modal/modal.html">Modal</a>
                 </li>
                 <li class="menu-list-item-active">
-                    <a href="/components/navigation/navigation.html">Navigation</a>
+                    <a href="#">Navigation</a>
                 </li>
                 <li>
                     <a href="/components/rating/rating.html">Rating</a>
                 </li>
                 <li>
-                    <a href="/components/toast/toast.html">Toast</a>
+                    <a href="/components/simplegrid/simplegrid.html">Simple Grid</a>
                 </li>
                 <li>
-                    <a href="/components/grid/grid.html">Simple Grid</a>
+                    <a href="/components/textutils/textutils.html">Text utilites</a>
                 </li>
+                <li>
+                    <a href="/components/toast/toast.html">Toast</a>
+                </li>
+
             </ul>
         </aside>
-
         <!-- || Main content starts  -->
         <main class="content flx-col">
             <!-- || Content Header Starts  -->
@@ -103,14 +101,14 @@
                 <!-- Simple Navigation-->
                 <div class="content-heading-md">Simple Navigation</div>
 
-                <nav class="navbar-1 flx-row flx-main-center">
-                    <div class="navbar-1-title">Navbar Heading</div>
+                <nav class="nav flx-row flx-main-center">
+                    <div class="nav-title">Navbar Heading</div>
 
-                    <div class="navbar-1-links">
-                        <ul class="flx-row flx-wrap navbar-1-ul">
-                            <li class="navbar-item"><a href="#" class="navbar-1-links-a">Link 1</a></li>
-                            <li class="navbar-item"><a href="#" class="navbar-1-links-a">Link 2</a></li>
-                            <li class="navbar-item"><a href="#" class="navbar-1-links-a"> Link 3</a></li>
+                    <div class="nav-links-container">
+                        <ul class="flx-row flx-wrap nav-list">
+                            <li class="nav-list-item"><a href="#" class="nav-link nav-link-active">Link 1</a></li>
+                            <li class="nav-list-item"><a href="#" class="nav-link">Link 2</a></li>
+                            <li class="nav-list-item"><a href="#" class="nav-link"> Link 3</a></li>
                         </ul>
                     </div>
                 </nav>
@@ -119,51 +117,72 @@
 
                 <!-- || Navigation with users  -->
                 <div class="content-heading-md">Navigation with users</div>
-                <nav class="navbar-1 flx-row flx-main-center">
-                    <div class="navbar-1-title">Navbar Heading</div>
+                <nav class="nav flx-row flx-main-center">
+                    <div class="nav-title">Navbar Heading</div>
 
-                    <div class="navbar-1-links ">
-                        <ul class="flx-row flx-wrap flx-center navbar-1-ul">
-                            <li class="navbar-item"><a href="#" class="navbar-1-links-a">Link 1</a></li>
-                            <li class="navbar-item"><a href="#" class="navbar-1-links-a">Link 2</a></li>
-                            <li class="navbar-item"><a href="#" class="navbar-1-links-a "> Link 3</a></li>
-                            <li class="navbar-item pd-right-0"> <a href="#" class="navbar-1-links-a ">Username</a></li>
-                            <li class="navbar-item pd-left-0"> <a href="#" class="navbar-1-links-a">
-                                    <span class="avatar avatar-sm">
-                                        <img src="/assets/images/avatar-img.jpg" alt="circle-image-sm" srcset="" />
-                                    </span></a></li>
+                    <div class="nav-links-container flx-row flx-wrap flx-center">
+                        <ul class=" nav-list">
+                            <li class="nav-list-item"><a href="#" class="nav-link">Link 1</a></li>
+                            <li class="nav-list-item"><a href="#" class="nav-link nav-link-active">Link 2</a></li>
+                            <li class="nav-list-item"><a href="#" class="nav-link"> Link 3</a></li>
                         </ul>
+                        <div class="nav-user flx-row flx-center pd-left-0">
+                            <div> <a href="#" class="nav-user-link"> Username</a> </div>
+                            <a href="#" class="pd-left-0">
+                                <span class="avatar avatar-sm">
+                                    <img src="/assets/images/avatar-img.jpg" alt="circle-image-sm" srcset="" />
+                                </span>
+                            </a>
+                        </div>
                     </div>
                 </nav>
                 <br>
                 <br>
 
-                <!-- Navigation with search bar-->
-                <div class="content-heading-md">Navigation with search bar</div>
-                <nav class="navbar-1 flx-row flx-main-center">
-                    <div class="navbar-1-title">Navbar Heading</div>
-                    <div class="form-comp-1 flx-row flx-center nav-search">
-                        <input type="text" id="std-input" class=" form-input form-input-text" placeholder="Search"><span
-                            class="form-icon form-icon-search"><i class="fas fa-search"></i></span>
+                <!-- || Navigation with icons  -->
+                <div class="content-heading-md">Simple Navigation</div>
+
+                <nav class="nav flx-row flx-main-center flx-space-between">
+
+                    <div class="nav-title nav-search-title">Navbar Heading</div>
+
+                    <div class="flx-row flx-center nav-search">
+                        <input type="text" id="std-search" class="nav-search-bar" placeholder="Search"><span
+                            class="nav-search-span"><i class="fas fa-search nav-search-icon"></i></span>
                     </div>
 
-                    <div class="navbar-1-links">
-                        <ul class="flx-row flx-wrap navbar-1-ul">
-                            <li class="navbar-item"><a href="#" class="navbar-1-links-a">Link 1</a></li>
-                            <li class="navbar-item"><a href="#" class="navbar-1-links-a">Link 2</a></li>
-                            <li class="navbar-item"><a href="#" class="navbar-1-links-a"> Link 3</a></li>
+                    <div class="nav-links-container-2 flx-row flx-center flx-wrap">
+                        <button class="btn btn-solid nav-btn margin-y-8">Login</button>
+
+                        <ul class="nav-list flx-row flx-main-center pd-8">
+                            <li class="nav-list-item">
+                                <a href="#" class="nav-link">
+                                    <div class="badge-container nav-icon-container">
+                                        <div class="badge-num">9+</div>
+                                        <i class="far fa-heart nav-icon"></i>
+                                    </div>
+                                </a></li>
+                            <li class="nav-list-item">
+                                <a href="#" class="nav-link">
+                                    <div class="badge-container nav-icon-container">
+                                        <div class="badge-num">9+</div>
+                                        <i class="fas fa-shopping-cart nav-icon"></i>
+                                    </div>
+                                </a>
+                            </li>
                         </ul>
                     </div>
                 </nav>
-                <br>
+
                 <br>
 
                 <!-- || Content footer starts  -->
                 <div class="content-footer flx-row">
-                    <a href="#" class="content-footer-prev"><i class="fas fa-angle-left"></i> Modal
+                    <a href="/components/modal/modal.html" class="content-footer-prev"><i class="fas fa-angle-left"></i>
+                        Modal
                     </a>
 
-                    <a href="#" class="content-footer-next">
+                    <a href="/components/rating/rating.html" class="content-footer-next">
                         Rating<i class="fas fa-angle-right"></i>
                     </a>
                 </div>

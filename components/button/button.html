@@ -2,160 +2,171 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Futbolt UI | Button</title>
-    <script src="https://kit.fontawesome.com/0a41da8839.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="/components/button/button.css" />
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Button | Futbolt UI</title>
+  <script src="https://kit.fontawesome.com/0a41da8839.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="/components/component.css" />
 </head>
 
 <body>
-    <!-- || Container  -->
-    <div class="container">
-        <!-- || Navbar starts -->
-        <nav class="navbar flx-row flx-main-center">
-            <div class="navbar-logo">
-                <img src="/assets/images/futbolt-lg.png" alt="" loading="eager" />
-            </div>
-            <div class="navbar-title">Futbolt UI</div>
-            <div class="navbar-links">
-                <ul>
-                    <li><a href="/index.html">Home</a></li>
-                    <li><a href="#" class="navbar-links-active">Docs</a></li>
-                    <li>
-                        <a href="https://github.com/sks-21/Futbolt-Component-Library">
-                            <i class="fab fa-github"></i> Github</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
+  <!-- || Container  -->
+  <div class="container">
+    <!-- || Navbar starts -->
+    <nav class="navbar flx-row flx-main-center">
+      <div class="navbar-logo">
+        <img src="/assets/images/futbolt-lg.png" alt="" loading="eager" class="navbar-logo-img" />
+      </div>
+      <div class="navbar-title">Futbolt UI</div>
+      <div class="navbar-links-container">
+        <ul class="navbar-list">
+          <li class="navbar-list-item"><a href="/index.html" class="navbar-link">Home</a></li>
+          <li class="navbar-list-item"><a href="#" class=" navbar-link navbar-link-active">Docs</a></li>
+          <li class="navbar-list-item">
+            <a href="https://github.com/sks-21/Futbolt-Component-Library" class="navbar-link">
+              <i class="fab fa-github"></i> Github</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
 
-        <!-- || Side Menu starts   -->
-        <aside class="menu flx-column flx-main-center">
-            <ul class="menu-list">
-                <li class="menu-list-title">Contents</li>
+    <!-- || Side Menu starts   -->
+    <aside class="menu flx-col flx-main-center">
+      <ul class="menu-list">
+        <li class="menu-list-title">Getting Started</li>
+        <li>
+          <a href="/documentation/documentation.html">Installation</a>
+        </li>
+        <li>
+          <a href="/typography/typography.html">Typography</a>
+        </li>
+        <li>
+          <a href="/colorspage/colorspage.html">Colors</a>
+        </li>
 
-                <li><a href="/components/alert/alert.html">Alert</a></li>
-                <li>
-                    <a href="/components/avatar/avatar.html">Avatar</a>
-                </li>
-                <li>
-                    <a href="/components/badge/badge.html">Badge</a>
-                </li>
-                <li class="menu-list-item-active">
-                    <a href="/components/button/button.html">Button</a>
-                </li>
-                <li>
-                    <a href="/components/card/card.html">Card</a>
-                </li>
-                <li>
-                    <a href="/components/image/image.html">Image</a>
-                </li>
-                <li>
-                    <a href="/components/input/badge.html">Input</a>
-                </li>
-                <li>
-                    <a href="/components/textutil/textutil.html">Text utilites</a>
-                </li>
-                <li><a href="/components/lists/lists.html">Lists</a></li>
-                <li>
-                    <a href="/components/navigation/navigation.html">Navigation</a>
-                </li>
-                <li>
-                    <a href="/components/modal/modal.html">Modal</a>
-                </li>
-                <li>
-                    <a href="/components/rating/rating.html">Rating</a>
-                </li>
-                <li>
-                    <a href="/components/toast/toast.html">Toast</a>
-                </li>
-                <li>
-                    <a href="/components/grid/grid.html">Simple Grid</a>
-                </li>
-            </ul>
-        </aside>
+        <li class="menu-list-title">Components</li>
+        <li><a href="/components/alert/alert.html">Alert</a></li>
+        <li>
+          <a href="/components/avatar/avatar.html">Avatar</a>
+        </li>
+        <li>
+          <a href="/components/badge/badge.html">Badge</a>
+        </li>
+        <li class="menu-list-item-active">
+          <a href="#">Button</a>
+        </li>
+        <li>
+          <a href="/components/card/card.html">Card</a>
+        </li>
+        <li>
+          <a href="/components/image/image.html">Image</a>
+        </li>
+        <li>
+          <a href="/components/input/input.html">Input</a>
+        </li>
+        <li>
+          <a href="/components/list/list.html">Lists</a>
+        </li>
+        <li>
+          <a href="/components/modal/modal.html">Modal</a>
+        </li>
+        <li> <a href="/components/navigation/navigation.html">Navigation</a>
+        </li>
+        <li>
+          <a href="/components/rating/rating.html">Rating</a>
+        </li>
+        <li>
+          <a href="/components/simplegrid/simplegrid.html">Simple Grid</a>
+        </li>
+        <li>
+          <a href="/components/textutils/textutils.html">Text utilites</a>
+        </li>
+        <li>
+          <a href="/components/toast/toast.html">Toast</a>
+        </li>
 
-        <!-- || Main content starts  -->
-        <main class="content flx-col">
-            <!-- || Content Header Starts  -->
-            <div class="content-heading-lg">Button</div>
+      </ul>
+    </aside>
+    <!-- || Main content starts  -->
+    <main class="content flx-col">
+      <!-- || Content Header Starts  -->
+      <div class="content-heading-lg">Button</div>
 
-            <!-- || Content Main starts  -->
-            <div class="content-main">
-                <p>The button component.</p>
+      <!-- || Content Main starts  -->
+      <div class="content-main">
+        <p>The button component.</p>
 
-                <!-- Button variants -->
-                <div class="content-heading-md">Button Variants</div>
-                <button class="btn btn-solid">Solid</button>
-                <button class="btn btn-outline">Outline</button>
-                <button class="btn btn-disabled">Disabled</button>
-                <button class="btn btn-ghost">Ghost</button>
-                <button class="btn btn-link">Link</button>
+        <!-- Button variants -->
+        <div class="content-heading-md">Button Variants</div>
+        <button class="btn btn-solid">Solid</button>
+        <button class="btn btn-outline">Outline</button>
+        <button class="btn btn-disabled">Disabled</button>
+        <button class="btn btn-ghost">Ghost</button>
+        <button class="btn btn-link">Link</button>
 
-                <br />
+        <br />
 
-                <!-- Different sizes of buttons -->
-                <div class="content-heading-md">Button Sizes</div>
-                <button class=" btn btn-solid btn-xs">Button</button>
-                <button class="btn btn-solid btn-sm">Button</button>
-                <button class="btn btn-solid btn-md">Button</button>
-                <button class="btn btn-solid btn-lg">Button</button>
+        <!-- Different sizes of buttons -->
+        <div class="content-heading-md">Button Sizes</div>
+        <button class=" btn btn-solid btn-xs">Button</button>
+        <button class="btn btn-solid btn-sm">Button</button>
+        <button class="btn btn-solid btn-md">Button</button>
+        <button class="btn btn-solid btn-lg">Button</button>
 
-                <br />
+        <br />
 
-                <!-- Solid buttons -->
-                <div class="content-heading-md">Solid Buttons</div>
-                <button class="btn btn-solid">Primary</button>
-                <button class="btn btn-secondary">Secondary</button>
-                <button class="btn btn-success">Success</button>
-                <button class="btn btn-warning">Warning</button>
-                <button class="btn btn-error">Error</button>
+        <!-- Solid buttons -->
+        <div class="content-heading-md">Solid Buttons</div>
+        <button class="btn btn-solid">Primary</button>
+        <button class="btn btn-secondary">Secondary</button>
+        <button class="btn btn-success">Success</button>
+        <button class="btn btn-warning">Warning</button>
+        <button class="btn btn-error">Error</button>
 
-                <br />
+        <br />
 
-                <!-- Outline buttons -->
-                <div class="content-heading-md">Outline Buttons</div>
-                <button class="btn btn-outline">Outline</button>
-                <button class="btn btn-outline btn-outline-secondary">Outline</button>
-                <button class="btn btn-outline btn-outline-success">Outline</button>
-                <button class="btn btn-outline btn-outline-warning">Outline</button>
-                <button class="btn btn-outline btn-outline-error">Outline</button>
+        <!-- Outline buttons -->
+        <div class="content-heading-md">Outline Buttons</div>
+        <button class="btn btn-outline">Outline</button>
+        <button class="btn btn-outline btn-outline-secondary">Outline</button>
+        <button class="btn btn-outline btn-outline-success">Outline</button>
+        <button class="btn btn-outline btn-outline-warning">Outline</button>
+        <button class="btn btn-outline btn-outline-error">Outline</button>
 
-                <br />
+        <br />
 
-                <!-- Buttons with icons -->
-                <div class="content-heading-md">Buttons with icons</div>
-                <button class="btn btn-solid"><i class="fas fa-envelope"></i> Email</button>
-                <button class="btn btn-outline"> Call us<i class="fas fa-arrow-right"></i></button>
-                <button class="btn btn-settings"><i class="fas fa-cog"></i> Settings</button>
-                <button class="btn btn-error bg-red"><i class="fas fa-trash"></i> Delete </button>
-                <br />
+        <!-- Buttons with icons -->
+        <div class="content-heading-md">Buttons with icons</div>
+        <button class="btn btn-solid"><i class="fas fa-envelope"></i> Email</button>
+        <button class="btn btn-outline"> Call us<i class="fas fa-arrow-right"></i></button>
+        <button class="btn btn-settings"><i class="fas fa-cog"></i> Settings</button>
+        <button class="btn btn-error bg-red"><i class="fas fa-trash"></i> Delete </button>
+        <br />
 
-                <!-- Floating action buttons -->
-                <div class="content-heading-md">Floating Buttons</div>
-                <button class="btn-solid btn-float"><i class="fas fa-plus"></i></button>
-                <button class="btn-float bg-yellow-hover"><i class="fas fa-star"></i></button>
-                <button class="btn-solid btn-float"><i class="fas fa-pen"></i></button>
-                <button class="btn-float bg-pink-hover"><i class="fas fa-heart"></i></button>
-                <button class="btn-float bg-red-hover"><i class="fas fa-trash"></i></button>
+        <!-- Floating action buttons -->
+        <div class="content-heading-md">Floating Buttons</div>
+        <button class="btn-solid btn-float"><i class="fas fa-plus"></i></button>
+        <button class="btn-float bg-yellow-hover"><i class="fas fa-star"></i></button>
+        <button class="btn-solid btn-float"><i class="fas fa-pen"></i></button>
+        <button class="btn-float bg-pink-hover"><i class="fas fa-heart"></i></button>
+        <button class="btn-float bg-red-hover"><i class="fas fa-trash"></i></button>
 
-                <!-- || Content main ends -->
-                <br>
-                <!-- || Content footer starts  -->
-                <div class="content-footer flx-row">
-                    <a href="" class="content-footer-prev"><i class="fas fa-angle-left"></i> Badge
-                    </a>
+        <!-- || Content main ends -->
+        <br>
+        <!-- || Content footer starts  -->
+        <div class="content-footer flx-row">
+          <a href="/components/badge/badge.html" class="content-footer-prev"><i class="fas fa-angle-left"></i> Badge
+          </a>
 
-                    <a href="" class="content-footer-next">
-                        Card <i class="fas fa-angle-right"></i>
-                    </a>
-                </div>
-        </main>
-    </div>
+          <a href="/components/card/card.html" class="content-footer-next">
+            Card <i class="fas fa-angle-right"></i>
+          </a>
+        </div>
+    </main>
+  </div>
 
-    <script src="/documentation/documentation.js"></script>
+  <script src="/documentation/documentation.js"></script>
 </body>
 
 </html>
