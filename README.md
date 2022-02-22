@@ -1,7 +1,9 @@
 # [Futbolt Component Library](https://futbolt-ui.netlify.app/)
 >Let's create magic
 
-Futbolt Component Library is an open souce styling framework which provides elegant and seamless components.
+**Futbolt Component Library is an open souce styling framework which provides elegant and seamless components.**
+
+![cl-home](https://user-images.githubusercontent.com/47688809/155231339-6491ee6b-86bd-4419-9e1d-53fb57a27e9e.PNG)
 
 ---
 
@@ -26,20 +28,20 @@ Inside HTML use this in head tag :<br>
 
 ## Components
 
-- [Alerts](#Alerts)
-- [Avatar](#Avatar)
-- [Badges](#Badges)
-- [Button](#Buttons)
-- [Card](#Cards)
-- [Image](#Images)
-- [Input](#Input)
-- [Lists](#Lists)
-- [Navigation](#Navigation)
-- [Modal](#Modal)
-- [Rating](#Rating)
-- [Simple Grid](#Grids)
-- [Text Utilities](#TextUtilities)
-- [Toast](#Toast)
+- [Alerts](#alerts)
+- [Avatar](#avatar)
+- [Badges](#badges)
+- [Button](#buttons)
+- [Card](#cards)
+- [Image](#images)
+- [Input](#input)
+- [Lists](#lists)
+- [Navigation](#navigation)
+- [Modal](#modal)
+- [Rating](#rating)
+- [Simple Grid](#grids)
+- [Text Utilities](#textUtilities)
+- [Toast](#toast)
 
 ---
 
@@ -74,7 +76,7 @@ Forms contain field and button components. Field components display the data in 
 
 ---
 
-# Images <a id="Images"></a>
+# Images <a id="images"></a>
 Images is a way to display digital image data into a visual color image with the help of some colors.
 
  
@@ -94,22 +96,22 @@ The nav HTML element represents a section of a page whose purpose is to provide 
 
 ---
 
-# Rating <a id="ratingBar"></a>
+# Rating <a id="rating"></a>
 A RatingBar is an extension of SeekBar and ProgressBar that shows a rating in stars.
 
 
 ---
-# Simple Grid <a id="Grids"></a>
+# Simple Grid <a id="grids"></a>
 Grids are used for page layouts. The grid adapts to screen size and orientation, ensuring consistency across layouts.
 
 ---
 
-# Text utilities <a id="TextUtilities"></a>
+# Text utilities <a id="textUtilities"></a>
 The text utility component offers heading for all purposes
 
 ---
 
-# Toast <a id="Toast"></a>
+# Toast <a id="toast"></a>
 Toast is mostly used to show feedback message.
 
 ---
