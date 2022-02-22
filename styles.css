@@ -127,6 +127,10 @@
   color: var(--color-yellow);
 }
 
+.txt-color{
+  color: var(--color-text);
+}
+
 
 /* || Root */
 :root {
@@ -142,9 +146,12 @@
   --color-primary-hover: #dbeafe;
 
   --color-secondary: #075f83;
-  --color-text: #374151;
-  --color-background: #edf9fe;
-  --color-navbar: #eef4f5;
+
+  --color-text: #212529;
+
+  --color-background: #ffffff;
+  ;
+  --color-navbar: #fdffff;
 
   --color-gray: #6b7280;
   --color-gray-dark: #4b5563;
@@ -303,13 +310,14 @@
   flex-wrap: wrap;
 }
 
-.flx-space-between{
+.flx-space-between {
   justify-content: space-between;
 }
 
-.flx-grow-0{
+.flx-grow-0 {
   flex-grow: 0;
 }
+
 /* || Spacing */
 .vertical-gutter-lg {
   margin-top: 2.4rem;
@@ -374,6 +382,55 @@
 
 .margin-auto {
   margin: auto;
+}
+
+.margin-top-8 {
+  margin-top: 8px;
+
+}
+
+.margin-top-16 {
+  margin-top: 16px;
+
+}
+
+.margin-top-32 {
+  margin-top: 32px;
+
+}
+
+.margin-top-64 {
+  margin-top: 64px;
+
+}
+
+.margin-bottom-8 {
+  margin-bottom: 8px;
+
+}
+
+.margin-bottom-16 {
+  margin-bottom: 16px;
+
+}
+
+.margin-bottom-32 {
+  margin-bottom: 32px;
+
+}
+
+.margin-bottom-64 {
+  margin-bottom: 64px;
+
+}
+
+/* || For link  */
+.txt-decoration-none {
+  text-decoration: none;
+}
+
+.display-inline-block {
+  display: inline-block;
 }
 
 /* || Border radius */
