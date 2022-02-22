@@ -1,14 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    Simple, efficient component library
 
-    <a href="/documentation/documentation.html">Getting started</a>
-  </body>
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Home | Futbolt UI</title>
+  <script src="https://kit.fontawesome.com/0a41da8839.js" crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="/components/component.css">
+  <link rel="stylesheet" href="/home/home.css">
+</head>
+
+<body>
+  <div class="home-container">
+
+    <!-- || Navbar Starts Here  -->
+    <nav class="navbar flx-row flx-main-center">
+      <div class="navbar-logo">
+        <img src="/assets/images/futbolt-lg.png" alt="" loading="eager" class="navbar-logo-img" />
+      </div>
+      <div class="navbar-title">Futbolt UI</div>
+      <div class="navbar-links-container">
+        <ul class="navbar-list">
+          <li class="navbar-list-item">
+            <a href="#" class="navbar-link  navbar-link-active">Home</a>
+          </li>
+          <li class="navbar-list-item">
+            <a href="/documentation/documentation.html" class="navbar-link">Docs</a>
+          </li>
+          <li class="navbar-list-item">
+            <a href="https://github.com/sks-21/Futbolt-Component-Library" class="navbar-link">
+              <i class="fab fa-github"></i> Github</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+    <!-- || Navbar Ends Here  -->
+
+    <!-- || Header starts Here  -->
+    <header class="header flx-row flx-center flx-wrap">
+      <div class="header-content flx-col flx-cross-center">
+        <div class="header-content-title ">Let's create <span class="txt-primary fw-700">Magic</span>
+        </div>
+        <p class="header-content-desc">Seamless and elegant UI components to add magic to your projects.
+          <br>
+          Focuses on modular and maintainable components.
+          <br> Does the designing heavy work and let's you focus on the logic !
+        </p>
+        <div class="flx-row home-btn-container">
+          <button class="btn btn-outline btn-md header-btn header-btn-secondary  ">
+            <a href="/documentation/documentation.html" class="txt-decoration-none txt-primary">Installation</a>
+          </button>
+          <button class="btn btn-solid btn-md header-btn header-btn-main"><a href="/components/alert/alert.html"
+              class="txt-decoration-none txt-white">Documentation</a></button>
+        </div>
+
+      </div>
+      <div class="header-img-container flx-col flx-center">
+        <img src="/assets/images/img-hero.svg" class="header-img" alt="header image">
+      </div>
+    </header>
+    <!-- || Header ends Here  -->
+
+    <!-- Footer Starts Here -->
+    <footer class="footer flx-col flx-center flx-wrap shadow">
+      <div class="footer-title">Made with ❤️ by Shashank</div>
+      <div class="footer-list-container">
+        <ul class="footer-list flx-row">
+          <li class="footer-list-item">
+            <a href="https://twitter.com/_sks_21_" class="nav-footer-link">
+              <i class="fab fa-twitter"></i>
+              Twitter</a>
+          </li>
+          <li class="footer-list-item">
+            <a href="https://www.linkedin.com/in/shashank213/" class="nav-footer-link">
+              <i class="fab fa-linkedin-in"></i>
+              LinkedIn
+            </a>
+          </li>
+          <li class="footer-list-item">
+            <a href="https://github.com/sks-21/Futbolt-Component-Library" class="nav-footer-link">
+              <i class="fab fa-github"></i>
+              Github
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div> ©️ Shashank Kumar Singh | 2022 | All rights reserved </div>
+
+    </footer>
+    <!-- Footer Ends Here -->
+
+  </div>
+</body>
+
 </html>
