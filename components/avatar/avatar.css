@@ -2,7 +2,6 @@
   border-radius: 50%;
   color: var(--color-offwhite);
   display: inline-block;
-  margin: 0.8rem;
 }
 
 .avatar img {
@@ -39,9 +38,4 @@
   position: relative;
   top: 35%;
   text-align: center;
-}
-
-.avatar-iframe iframe {
-  width: 70rem;
-  height: 30rem;
 }

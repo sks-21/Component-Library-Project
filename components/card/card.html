@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Card | Futbolt UI</title>
+    <link rel="shortcut icon" href="/assets/images/futbolt-lg.png" type="image/x-icon" />
     <script src="https://kit.fontawesome.com/0a41da8839.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="/components/component.css" />
 </head>
@@ -97,225 +98,64 @@
 
             <!-- || Content Main starts  -->
             <div class="content-main">
-                <p>The card component.</p>
-
+                <p>A card is a flexible content container. It includes options for headers and footers.</p>
                 <!-- Vertical card -->
                 <div class="content-heading-md">Vertical Card</div>
+                <p>Vertical cards section can be edited to tailor to specific needs. The horizontal card provided is one
+                    such variation of this.</p>
 
-                <div class="vertical-card">
-                    <div class="vertical-card-overlay">
-                        <div class="overlay-btn">
-                            <button class="overlay-btn-heart"><i class="far fa-heart"></i></button>
+                <div class="fbui-component-container-x">
+                    <div class="vertical-card">
+                        <div class="vertical-card-overlay">
+                            <div class="overlay-btn">
+                                <button class="overlay-btn-heart"><i class="far fa-heart"></i></button>
+                            </div>
                         </div>
-                    </div>
-                    <div class="content-img-container">
-                        <img class="content-img" src="/assets/images/card-dress.jpeg" alt="" />
-                    </div>
-                    <div class="vertical-card-content flx-col">
-                        <div class="card-title">Adidas</div>
-                        <div class="card-desc">Round Neck Blue T-Shirt</div>
-                        <div class="card-review">
-                            <span class="badge-pill bg-green card-review-rating">4.4 <i class="fas fa-star"></i></span>
-                            <span>(17,329)</span>
+                        <div class="content-img-container">
+                            <img class="content-img" src="/assets/images/card-dress.jpeg" alt="" />
                         </div>
-                        <div class="card-sub-body flx-row">
-                            <div class="card-sub-body-text1">₹699</div>
-                            <div class="card-sub-body-text2">₹1,799</div>
-                            <div class="card-sub-body-text3">65%off</div>
+                        <div class="vertical-card-content flx-col">
+                            <div class="card-title">Adidas</div>
+                            <div class="card-desc">Round Neck Blue T-Shirt</div>
+                            <div class="card-review">
+                                <span class="badge-pill bg-green card-review-rating">4.4 <i
+                                        class="fas fa-star"></i></span>
+                                <span>(17,329)</span>
+                            </div>
+                            <div class="card-sub-body flx-row">
+                                <div class="card-sub-body-text1">₹699</div>
+                                <div class="card-sub-body-text2">₹1,799</div>
+                                <div class="card-sub-body-text3">65%off</div>
+                            </div>
+                            <button class="btn btn-solid btn-primary card-btn"><i class="fas fa-shopping-cart"></i> Add
+                                to
+                                Cart
+                            </button>
                         </div>
-                        <button class="btn btn-solid btn-primary card-btn"><i class="fas fa-shopping-cart"></i> Add to
-                            Cart
-                        </button>
                     </div>
                 </div>
-                <br />
+
+                <div class="iframe-container">
+                    <iframe src="https://www.thiscodeworks.com/embed/6214c19d4ef606001531dc14"
+                        style="width: 100%; height: 450px;" frameborder="0"></iframe>
+                </div>
 
                 <!-- Vertical Card with badges -->
                 <div class="content-heading-md">Vertical Card with badges</div>
-                <div class="vertical-card">
-                    <div class="vertical-card-overlay">
-                        <div class="overlay-btn ">
-                            <span class="badge-pill bg-primary  overlay-badge">New</span>
-                            <button class="overlay-btn-heart"><i class="far fa-heart"></i></button>
-                        </div>
-                    </div>
-                    <div class="content-img-container">
-                        <img class="content-img" src="/assets/images/card-dress.jpeg" alt="" />
-                    </div>
-                    <div class="vertical-card-content flx-col">
-                        <div class="card-title">Adidas</div>
-                        <div class="card-desc">Round Neck Blue T-Shirt</div>
-                        <div class="card-review">
-                            <span class="badge-pill bg-green card-review-rating">4.4 <i class="fas fa-star"></i></span>
-                            <span>(17,329)</span>
-                        </div>
-                        <div class="card-sub-body flx-row">
-                            <div class="card-sub-body-text1">₹699</div>
-                            <div class="card-sub-body-text2">₹1,799</div>
-                            <div class="card-sub-body-text3">65%off</div>
-                        </div>
-                        <button class="btn btn-solid btn-primary card-btn"><i class="fas fa-shopping-cart"></i></i> Add
-                            to Cart
-                        </button>
-                    </div>
-                </div>
-                <br />
+                Badge component can be combined with card component to produce cards with highlighting features etc.
+                <div class="fbui-component-container-x">
 
-                <div class="vertical-card">
-                    <div class="vertical-card-overlay">
-                        <div class="overlay-btn">
-                            <span class="badge-pill bg-pink overlay-badge">Trending</span>
-                            <button class="overlay-btn-heart"><i class="far fa-heart"></i></button>
-                        </div>
-                    </div>
-                    <div class="content-img-container">
-                        <img class="content-img" src="/assets/images/card-dress.jpeg" alt="" />
-                    </div>
-                    <div class="vertical-card-content flx-col">
-                        <div class="card-title">Adidas</div>
-                        <div class="card-desc">Round Neck Blue T-Shirt</div>
-                        <div class="card-review">
-                            <span class="badge-pill bg-green card-review-rating">4.4 <i class="fas fa-star"></i></span>
-                            <span>(17,329)</span>
-                        </div>
-                        <div class="card-sub-body flx-row">
-                            <div class="card-sub-body-text1">₹699</div>
-                            <div class="card-sub-body-text2">₹1,799</div>
-                            <div class="card-sub-body-text3">65%off</div>
-                        </div>
-                        <button class="btn btn-solid btn-primary card-btn"><i class="fas fa-shopping-cart"></i> Add to
-                            Cart
-                        </button>
-                    </div>
-                </div>
-
-                <br />
-
-                <!-- Cards with text overlay -->
-                <div class="content-heading-md">Cards with text overlay</div>
-                <div class="vertical-card">
-                    <div class="vertical-card-overlay overlay-full">
-                        <div class="overlay-btn overlay-full-btn">
-                            <div class="overlay-full-txt">Out of Stock</div>
-                        </div>
-                    </div>
-                    <div class="content-img-container op">
-                        <img class="content-img" src="/assets/images/card-dress.jpeg" alt="" />
-                    </div>
-                    <div class="vertical-card-content flx-col op">
-                        <div class="card-title">Adidas</div>
-                        <div class="card-desc">Round Neck Blue T-Shirt</div>
-                        <div class="card-review">
-                            <span class="badge-pill bg-green card-review-rating">4.4 <i class="fas fa-star"></i></span>
-                            <span>(17,329)</span>
-                        </div>
-                        <div class="card-sub-body flx-row">
-                            <div class="card-sub-body-text1">₹699</div>
-                            <div class="card-sub-body-text2">₹1,799</div>
-                            <div class="card-sub-body-text3">65%off</div>
-                        </div>
-                        <button class="btn btn-solid btn-primary card-btn"><i class="fas fa-shopping-cart"></i> Add to
-                            Cart
-                        </button>
-                    </div>
-                </div>
-
-                <br />
-
-                <!-- Text only card -->
-                <div class="content-heading-md ">Text only card </div>
-
-                <div class="vertical-card txt-card txt-border">
-                    <div class="txt-card-heading">
-                        <div class="txt-card-title">FIFA World Cup</div>
-                        <div class="txt-card-subtitle">10-02-2022</div>
-
-                    </div>
-                    <p class="txt-card-content">
-                        The FIFA World Cup, often simply called the World Cup, is an international association football
-                        competition contested by the senior men's national teams of the members of the Fédération
-                        Internationale de Football Association (FIFA), the sport's global governing body.
-                    </p>
-                    <div>
-                        <div class="txt-card-btn flx-row">
-                            <div class="txt-card-btn-prime"> <a class="txt-card-btn-prime-link" href="">Read More</a>
+                    <div class="vertical-card">
+                        <div class="vertical-card-overlay">
+                            <div class="overlay-btn ">
+                                <span class="badge-pill bg-primary  overlay-badge">New</span>
+                                <button class="overlay-btn-heart"><i class="far fa-heart"></i></button>
                             </div>
-                            <i class="far fa-heart txt-card-btn-icon"></i>
-                            <i class="fas fa-share-alt txt-card-btn-icon"></i>
-                            <i class="fas fa-ellipsis-v txt-card-btn-icon"></i>
                         </div>
-                    </div>
-                </div>
-
-
-                <!-- Card with dismiss buttons -->
-                <div class="content-heading-md">Card with dismiss buttons</div>
-
-                <div class="vertical-card txt-card  txt-border">
-                    <div class="txt-card-heading txt-card-dismiss flx-row">
-                        <div class="txt-card-title">The Premier League</div>
-                        <button class="txt-card-dismiss-icon">
-                            <i class="fas fa-times-circle"></i>
-                        </button>
-
-                    </div>
-                    <p class="txt-card-content">
-                        The Premier League, also known exonymously as the English Premier League or the EPL, is the top
-                        level of the English football league system. Contested by 20 clubs, it operates on a system of
-                        promotion and relegation with the English Football League.
-                    </p>
-                    <div>
-                        <div class="txt-card-btn flx-row">
-                            <div class="txt-card-btn-prime"> <a class="txt-card-btn-prime-link" href="">Read More</a>
-                            </div>
-                            <i class="far fa-heart txt-card-btn-icon"></i>
-                            <i class="fas fa-share-alt txt-card-btn-icon"></i>
-                            <i class="fas fa-ellipsis-v txt-card-btn-icon"></i>
+                        <div class="content-img-container">
+                            <img class="content-img" src="/assets/images/card-dress.jpeg" alt="" />
                         </div>
-                    </div>
-                </div>
-                <br />
-
-                <!-- Card with shadow -->
-                <div class="content-heading-md">Card with shadow</div>
-
-                <div class="vertical-card card-shadow ">
-                    <div class="vertical-card-overlay">
-                        <div class="overlay-btn">
-                            <button class="overlay-btn-heart"><i class="far fa-heart"></i></button>
-                        </div>
-                    </div>
-                    <div class="content-img-container">
-                        <img class="content-img" src="/assets/images/card-dress.jpeg" alt="" />
-                    </div>
-                    <div class="vertical-card-content flx-col">
-                        <div class="card-title">Adidas</div>
-                        <div class="card-desc">Round Neck Blue T-Shirt</div>
-                        <div class="card-review">
-                            <span class="badge-pill bg-green card-review-rating">4.4 <i class="fas fa-star"></i></span>
-                            <span>(17,329)</span>
-                        </div>
-                        <div class="card-sub-body flx-row">
-                            <div class="card-sub-body-text1">₹699</div>
-                            <div class="card-sub-body-text2">₹1,799</div>
-                            <div class="card-sub-body-text3">65%off</div>
-                        </div>
-                        <button class="btn btn-solid btn-primary card-btn"><i class="fas fa-shopping-cart"></i></i> Add
-                            to Cart
-                        </button>
-                    </div>
-                </div>
-                <br>
-
-                <!-- Horizontal Card -->
-                <div class="content-heading-md">Horizontal Card</div>
-
-                <div class="horizontal-card">
-                    <div class="horizontal-card-content flx-row">
-                        <div class="horizontal-card-img-container">
-                            <img class="horizontal-card-img" src="/assets/images/card-dress.jpeg" alt="" />
-                        </div>
-                        <div class="card-details">
+                        <div class="vertical-card-content flx-col">
                             <div class="card-title">Adidas</div>
                             <div class="card-desc">Round Neck Blue T-Shirt</div>
                             <div class="card-review">
@@ -329,22 +169,256 @@
                                 <div class="card-sub-body-text3">65%off</div>
                             </div>
                             <button class="btn btn-solid btn-primary card-btn"><i class="fas fa-shopping-cart"></i></i>
-                                Add to
+                                Add
+                                to Cart
+                            </button>
+                        </div>
+                    </div>
+
+                    <div class="vertical-card">
+                        <div class="vertical-card-overlay">
+                            <div class="overlay-btn">
+                                <span class="badge-pill bg-pink overlay-badge">Trending</span>
+                                <button class="overlay-btn-heart"><i class="far fa-heart"></i></button>
+                            </div>
+                        </div>
+                        <div class="content-img-container">
+                            <img class="content-img" src="/assets/images/card-dress.jpeg" alt="" />
+                        </div>
+                        <div class="vertical-card-content flx-col">
+                            <div class="card-title">Adidas</div>
+                            <div class="card-desc">Round Neck Blue T-Shirt</div>
+                            <div class="card-review">
+                                <span class="badge-pill bg-green card-review-rating">4.4 <i
+                                        class="fas fa-star"></i></span>
+                                <span>(17,329)</span>
+                            </div>
+                            <div class="card-sub-body flx-row">
+                                <div class="card-sub-body-text1">₹699</div>
+                                <div class="card-sub-body-text2">₹1,799</div>
+                                <div class="card-sub-body-text3">65%off</div>
+                            </div>
+                            <button class="btn btn-solid btn-primary card-btn"><i class="fas fa-shopping-cart"></i> Add
+                                to
                                 Cart
                             </button>
-                            <button class="btn btn-outline card-btn car-outline-btn"><i class="far fa-heart"></i>
-                                Add to Wishlist</button>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="iframe-container"><iframe src="https://www.thiscodeworks.com/embed/6214c49b4ef606001531dc1a"
+                        style="width: 100%; height: 476px;" frameborder="0"></iframe></div>
+
+                <!-- Cards with text overlay -->
+                <div class="content-heading-md">Cards with text overlay</div>
+                <p>Text overlays card can be used to highlight an information over the other background details.</p>
+                <div class="fbui-component-container-x">
+                    <div class="vertical-card">
+                        <div class="vertical-card-overlay overlay-full">
+                            <div class="overlay-btn overlay-full-btn">
+                                <div class="overlay-full-txt">Out of Stock</div>
+                            </div>
+                        </div>
+                        <div class="content-img-container op">
+                            <img class="content-img" src="/assets/images/card-dress.jpeg" alt="" />
+                        </div>
+                        <div class="vertical-card-content flx-col op">
+                            <div class="card-title">Adidas</div>
+                            <div class="card-desc">Round Neck Blue T-Shirt</div>
+                            <div class="card-review">
+                                <span class="badge-pill bg-green card-review-rating">4.4 <i
+                                        class="fas fa-star"></i></span>
+                                <span>(17,329)</span>
+                            </div>
+                            <div class="card-sub-body flx-row">
+                                <div class="card-sub-body-text1">₹699</div>
+                                <div class="card-sub-body-text2">₹1,799</div>
+                                <div class="card-sub-body-text3">65%off</div>
+                            </div>
+                            <button class="btn btn-solid btn-primary card-btn"><i class="fas fa-shopping-cart"></i> Add
+                                to
+                                Cart
+                            </button>
+                        </div>
+                    </div>
+                    <div class="vertical-card">
+                        <div class="vertical-card-overlay overlay-full">
+                            <div class="overlay-btn overlay-full-btn">
+                                <div class="overlay-full-txt">COMING SOON</div>
+                            </div>
+                        </div>
+                        <div class="content-img-container op">
+                            <img class="content-img" src="/assets/images/card-dress.jpeg" alt="" />
+                        </div>
+                        <div class="vertical-card-content flx-col op">
+                            <div class="card-title">Adidas</div>
+                            <div class="card-desc">Round Neck Blue T-Shirt</div>
+                            <div class="card-review">
+                                <span class="badge-pill bg-green card-review-rating">4.4 <i
+                                        class="fas fa-star"></i></span>
+                                <span>(17,329)</span>
+                            </div>
+                            <div class="card-sub-body flx-row">
+                                <div class="card-sub-body-text1">₹699</div>
+                                <div class="card-sub-body-text2">₹1,799</div>
+                                <div class="card-sub-body-text3">65%off</div>
+                            </div>
+                            <button class="btn btn-solid btn-primary card-btn"><i class="fas fa-shopping-cart"></i> Add
+                                to
+                                Cart
+                            </button>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="iframe-container"><iframe src="https://www.thiscodeworks.com/embed/6214c5384ef606001531dc1c"
+                        style="width: 100%; height: 450px;" frameborder="0"></iframe></div>
+
+                <!-- Text only card -->
+                <div class="content-heading-md ">Text only card </div>
+                <p>Text only cards displays the text and comes with quick acess buttons at the end which can be
+                    customised to suit the requirements of the user.</p>
+                <div class="fbui-component-container-x">
+
+                    <div class="vertical-card txt-card txt-border">
+                        <div class="txt-card-heading">
+                            <div class="txt-card-title">FIFA World Cup</div>
+                            <div class="txt-card-subtitle">10-02-2022</div>
+                        </div>
+                        <p class="txt-card-content">
+                            The FIFA World Cup, often simply called the World Cup, is an international association
+                            football
+                            competition contested by the senior men's national teams of the members of the Fédération
+                            Internationale de Football Association (FIFA), the sport's global governing body.
+                        </p>
+                        <div>
+                            <div class="txt-card-btn flx-row">
+                                <div class="txt-card-btn-prime"> <a class="txt-card-btn-prime-link" href="">Read
+                                        More</a>
+                                </div>
+                                <i class="far fa-heart txt-card-btn-icon"></i>
+                                <i class="fas fa-share-alt txt-card-btn-icon"></i>
+                                <i class="fas fa-ellipsis-v txt-card-btn-icon"></i>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="iframe-container"><iframe src="https://www.thiscodeworks.com/embed/6214c5794ef606001531dc1d"
+                        style="width: 100%; height: 411px;" frameborder="0"></iframe></div>
+
+                <!-- Card with dismiss buttons -->
+                <div class="content-heading-md">Card with dismiss buttons</div>
+                Card with dismiss button offers additonal functionality to close the card component.
+                <div class="fbui-component-container-x">
+                    <div class="vertical-card txt-card  txt-border">
+                        <div class="txt-card-heading txt-card-dismiss flx-row">
+                            <div class="txt-card-title">The Premier League</div>
+                            <button class="txt-card-dismiss-icon">
+                                <i class="fas fa-times-circle"></i>
+                            </button>
+
+                        </div>
+                        <p class="txt-card-content">
+                            The Premier League, also known exonymously as the English Premier League or the EPL, is the
+                            top
+                            level of the English football league system. Contested by 20 clubs, it operates on a system
+                            of
+                            promotion and relegation with the English Football League.
+                        </p>
+                        <div>
+                            <div class="txt-card-btn flx-row">
+                                <div class="txt-card-btn-prime"> <a class="txt-card-btn-prime-link" href="">Read
+                                        More</a>
+                                </div>
+                                <i class="far fa-heart txt-card-btn-icon"></i>
+                                <i class="fas fa-share-alt txt-card-btn-icon"></i>
+                                <i class="fas fa-ellipsis-v txt-card-btn-icon"></i>
+                            </div>
                         </div>
                     </div>
                 </div>
-                <br />
+                <div class="iframe-container"><iframe src="https://www.thiscodeworks.com/embed/6214c5df4ef606001531dc1e"
+                        style="width: 100%; height: 359px;" frameborder="0"></iframe></div>
 
+                <!-- Card with shadow -->
+                <div class="content-heading-md">Card with shadow</div>
+                <p>The shadow highlights the cards and can be used to give an elevation effect.</p>
+                <div class="fbui-component-container-x">
+                    <div class="vertical-card card-shadow ">
+                        <div class="vertical-card-overlay">
+                            <div class="overlay-btn">
+                                <button class="overlay-btn-heart"><i class="far fa-heart"></i></button>
+                            </div>
+                        </div>
+                        <div class="content-img-container">
+                            <img class="content-img" src="/assets/images/card-dress.jpeg" alt="" />
+                        </div>
+                        <div class="vertical-card-content flx-col">
+                            <div class="card-title">Adidas</div>
+                            <div class="card-desc">Round Neck Blue T-Shirt</div>
+                            <div class="card-review">
+                                <span class="badge-pill bg-green card-review-rating">4.4 <i
+                                        class="fas fa-star"></i></span>
+                                <span>(17,329)</span>
+                            </div>
+                            <div class="card-sub-body flx-row">
+                                <div class="card-sub-body-text1">₹699</div>
+                                <div class="card-sub-body-text2">₹1,799</div>
+                                <div class="card-sub-body-text3">65%off</div>
+                            </div>
+                            <button class="btn btn-solid btn-primary card-btn"><i class="fas fa-shopping-cart"></i></i>
+                                Add
+                                to Cart
+                            </button>
+                        </div>
+                    </div>
+                </div>
+                <div class="iframe-container"><iframe src="https://www.thiscodeworks.com/embed/6214c61d4ef606001531dc1f"
+                        style="width: 100%; height: 463px;" frameborder="0"></iframe></div>
+
+                <!-- Horizontal Card -->
+                <div class="content-heading-md">Horizontal Card</div>
+                <p>Horizontal cards displays the details in a landscape mode.</p>
+                <div class="fbui-component-container-x">
+                    <div class="horizontal-card">
+                        <div class="horizontal-card-content flx-row">
+                            <div class="horizontal-card-img-container">
+                                <img class="horizontal-card-img" src="/assets/images/card-dress.jpeg" alt="" />
+                            </div>
+                            <div class="card-details">
+                                <div class="card-title">Adidas</div>
+                                <div class="card-desc">Round Neck Blue T-Shirt</div>
+                                <div class="card-review">
+                                    <span class="badge-pill bg-green card-review-rating">4.4 <i
+                                            class="fas fa-star"></i></span>
+                                    <span>(17,329)</span>
+                                </div>
+                                <div class="card-sub-body flx-row">
+                                    <div class="card-sub-body-text1">₹699</div>
+                                    <div class="card-sub-body-text2">₹1,799</div>
+                                    <div class="card-sub-body-text3">65%off</div>
+                                </div>
+                                <button class="btn btn-solid btn-primary card-btn"><i
+                                        class="fas fa-shopping-cart"></i></i>
+                                    Add to
+                                    Cart
+                                </button>
+                                <button class="btn btn-outline card-btn car-outline-btn"><i class="far fa-heart"></i>
+                                    Add to Wishlist</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="iframe-container"><iframe src="https://www.thiscodeworks.com/embed/6214c6774ef606001531dc22"
+                        style="width: 100%; height: 476px;" frameborder="0"></iframe></div>
                 <!-- || Content main ends -->
                 <br>
                 <!-- || Content footer starts  -->
                 <div class="content-footer flx-row">
-                    <a href="/components/button/button.html" class=" footer-link"><i
-                            class="fas fa-angle-left"></i> Button
+                    <a href="/components/button/button.html" class=" footer-link"><i class="fas fa-angle-left"></i>
+                        Button
                     </a>
 
                     <a href="/components/image/image.html" class="  footer-link">

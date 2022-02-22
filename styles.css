@@ -280,7 +280,12 @@
   background-color: var(--color-gray);
 }
 
-
+.code-snippet{
+  color: var(--color-red-dark);
+  background-color: var(--color-gray-light);
+  padding: 0 6px;
+  border-radius: 2px;
+}
 /* || Flex properties */
 .flx-row {
   display: flex;

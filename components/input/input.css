@@ -1,9 +1,6 @@
 /* || Individual Component - type 1  */
 .form-comp-1 {
-    border: 2px solid var(--color-gray);
     border-radius: 5px;
-    padding: 1.6rem;
-    margin: 8px 0;
     max-width: 70rem;
 }
 
@@ -42,7 +39,6 @@
 
 /* || form commponent - type 1  */
 .form-1 {
-    border: 2px solid var(--color-gray);
     border-radius: 5px;
     padding: 0 1.6rem;
     max-width: 70rem;
@@ -50,7 +46,6 @@
 
 /* || Individual Component - type 2  */
 .form-comp-2 {
-    margin: 1.6rem 0;
     width: 100%;
 }
 

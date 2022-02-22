@@ -1,9 +1,7 @@
 .modal-container {
-    width: 70rem;
-    border: 2px solid var(--color-gray);
+    border: 2px solid var(--color-secondary);
     border-radius: 5px;
     padding: 1.6rem 1.6rem;
-    height: 40rem;
     position: relative;
 }
 

@@ -4,12 +4,6 @@
 }
 
 /* || Square Image  */
-.img-container {
-  border: 2px solid var(--color-gray);
-  border-radius: 5px;
-  padding: 8px;
-}
-
 .img-square {
   aspect-ratio: 2/1;
   width: 100%;
