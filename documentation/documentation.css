@@ -1,10 +1,9 @@
 /* || Imported style guide in document.html */
 
 .container {
-  background-color: var(--color-background);
   width: 100%;
   display: grid;
-  grid-template-columns: 25rem 1fr 20rem;
+  grid-template-columns: 25rem 1fr 25rem;
   grid-template-rows: 7rem 1fr;
   grid-template-areas:
     "nav nav nav"
@@ -139,7 +138,7 @@ aside::-webkit-scrollbar-thumb {
   grid-area: main;
   color: var(--color-text);
   padding: 1.2rem 2.4rem;
-  padding-right: 10rem;
+  padding-right: 5rem;
   min-height: 100vh;
 }
 
@@ -150,7 +149,8 @@ aside::-webkit-scrollbar-thumb {
 
 .content-heading-md {
   font-size: 2.4rem;
-  font-size: bold;
+  font-weight: bold;
+  margin-top: 1.6rem;
 }
 
 .content-footer {
@@ -165,4 +165,40 @@ aside::-webkit-scrollbar-thumb {
 
 .footer-link:hover {
   text-decoration: underline;
+}
+
+.fbui-component-container-y {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  flex-wrap: wrap;
+  border: 2px solid var(--color-gray);
+  background-color: var(--color-navbar);
+  border-radius: 5px;
+  margin: 1.6rem 0rem;
+  gap: 1.6rem;
+  padding: 1.6rem;
+}
+
+.fbui-component-container-x {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100%;
+  border: 2px solid var(--color-gray);
+  background-color: var(--color-navbar);
+  border-radius: 5px;
+  margin: 1.6rem 0rem;
+  gap: 1.6rem;
+  padding: 1.6rem;
+}
+
+iframe {
+  height: auto;
+  width: 100%;
+}
+
+.content-footer {
+  margin: 3.2rem 0rem 1.6rem 0;
 }

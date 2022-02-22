@@ -6,6 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Avatar | Futbolt UI</title>
+  <link rel="shortcut icon" href="/assets/images/futbolt-lg.png" type="image/x-icon" />
   <script src="https://kit.fontawesome.com/0a41da8839.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="/components/component.css" />
 
@@ -98,39 +99,49 @@
       <!-- || Content Main starts  -->
       <div class="content-main">
         <p>
-          The avatar component is used to reperesent a <b>user</b>. It can be
-          used as a profile picture or intials.
+          Avatar can be used to show user's profile picture on profile information page, on navigation bar, in blogs
+          grid items.
+        </p>
+        <p> Avatar is available in four different sizes. The <span class="code-snippet">avatar</span> is the base class
+          and avatar-[size] is used for example
+          <span class="code-snippet">avatar-xlg</span>,
+          <span class="code-snippet">avatar-lg</span>,
+          <span class="code-snippet">avatar-md</span> and
+          <span class="code-snippet">avatar-sm</span> for different sizes of avatar.
         </p>
 
         <!-- Image Avatar -->
-
         <div class="content-heading-md">Image Avatar</div>
-        <p></p>
-        <div class="avatar avatar-xlg">
-          <img src="/assets/images/avatar-img.jpg" alt="circle-image-xlg" srcset="" />
+        <p>Image avatar are used to display user's profile picture.</p>
+
+        <div class="fbui-component-container-x">
+          <div class="avatar avatar-xlg">
+            <img src="/assets/images/avatar-img.jpg" alt="circle-image-xlg" srcset="" />
+          </div>
+
+          <div class="avatar avatar-lg">
+            <img src="/assets/images/avatar-img.jpg" alt="circle-image-lg" srcset="" />
+          </div>
+
+          <div class="avatar avatar-md">
+            <img src="/assets/images/avatar-img.jpg" alt="circle-image-md" srcset="" />
+          </div>
+
+          <div class="avatar avatar-sm">
+            <img src="/assets/images/avatar-img.jpg" alt="circle-image-sm" srcset="" />
+          </div>
+        </div>
+        <div class="iframe-container">
+          <iframe src="https://www.thiscodeworks.com/embed/6214ba364ef606001531dbfd" style="width: 100%; height: 281px;"
+            frameborder="0"></iframe>
         </div>
 
-        <div class="avatar avatar-lg">
-          <img src="/assets/images/avatar-img.jpg" alt="circle-image-lg" srcset="" />
-        </div>
-
-        <div class="avatar avatar-md">
-          <img src="/assets/images/avatar-img.jpg" alt="circle-image-md" srcset="" />
-        </div>
-
-        <div class="avatar avatar-sm">
-          <img src="/assets/images/avatar-img.jpg" alt="circle-image-sm" srcset="" />
-        </div>
-
-        <br />
-
-        <div class="avatar-iframe">
-          <iframe src="https://www.thiscodeworks.com/embed/62060a6da4f5770015a8851a" frameborder="0"></iframe>
-
-          <br>
-          <!-- Text Avatar -->
-
-          <div class="content-heading-md">Text Avatar</div>
+        <!-- Text Avatar -->
+        <div class="content-heading-md">Text Avatar</div>
+        <p>Text avatars can also be used instead of any user's picture. The initals of the user acts as it's content</p>
+        The <span class="code-snippet">.bg-[color]</span> like <span class="code-snippet">.bg-orange</span> etc can be
+        used to give the background color.
+        <div class="fbui-component-container-x">
           <div class="avatar avatar-xlg bg-orange">
             <p>SKS</p>
           </div>
@@ -148,15 +159,21 @@
           </div>
         </div>
 
-        <!-- || Content footer starts  -->
-        <div class="content-footer flx-row">
-          <a href="/components/alert/alert.html" class=" footer-link"><i class="fas fa-angle-left"></i> Alert
-          </a>
-
-          <a href="/components/badge/badge.html" class="  footer-link">
-            Badge <i class="fas fa-angle-right"></i>
-          </a>
+        <div class="iframe-container">
+          <iframe src="https://www.thiscodeworks.com/embed/6214ba9c4ef606001531dbfe" style="width: 100%; height: 281px;"
+            frameborder="0"></iframe>
         </div>
+      </div>
+
+      <!-- || Content footer starts  -->
+      <div class="content-footer flx-row">
+        <a href="/components/alert/alert.html" class=" footer-link"><i class="fas fa-angle-left"></i> Alert
+        </a>
+
+        <a href="/components/badge/badge.html" class="  footer-link">
+          Badge <i class="fas fa-angle-right"></i>
+        </a>
+      </div>
     </main>
   </div>
 

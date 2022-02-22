@@ -2,9 +2,7 @@
   border: 2px solid;
   border-radius: 5px;
   font-size: 1.6rem;
-  margin: 1.6rem;
   padding: 1.6rem 1.6rem;
-  width: 60rem;
   display: flex;
   align-items: center;
 }
