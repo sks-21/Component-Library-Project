@@ -1,20 +1,70 @@
 /* || Homepage Styles  */
-.home-container {
+.index-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
     height: 100vh;
-    display: grid;
-    grid-template-rows: 7rem 1fr 13rem;
-    grid-template-areas:
-        "nav nav nav"
-        "main main main"
-        "foot foot foot";
-    gap: 5px;
+}
+
+/* || Navbar Styles */
+.home-navbar {
+    background-color: var(--color-navbar);
+    box-shadow: 2px 2px 5px var(--color-gray);
     color: var(--color-text);
+    font-size: 2rem;
+    padding: 1.6rem;
+    width: 100%;
+    height: 7rem;
+}
+
+.home-navbar-logo {
+    margin-left: 1.6rem;
+}
+
+.home-navbar-logo-img {
+    height: 6rem;
+    margin-right: 1rem;
+}
+
+.home-navbar-title {
+    flex-grow: 1;
+    font-size: 3.2rem;
+    font-weight: bold;
+}
+
+.home-navbar-links-container {
+    margin-left: auto;
+    margin-right: 3.2rem;
+}
+
+.home-navbar-list {
+    list-style: none;
+}
+
+.home-navbar-list-item {
+    display: inline-block;
+}
+
+.home-navbar-link {
+    color: var(--color-text);
+    text-decoration: none;
+    padding: 1.6rem;
+}
+
+.home-navbar-link-active {
+    color: var(--color-primary);
+    font-weight: bold;
+    background-color: var(--color-primary-light);
+}
+
+.home-navbar-link:hover {
+    color: var(--color-primary);
+    background-color: var(--color-primary-light);
 }
 
 
 /* || Header  */
 .header {
-    grid-area: main;
     padding: 2rem 3rem;
     /* padding-left: 6rem; */
 
@@ -94,38 +144,36 @@
     gap: 1rem;
 }
 
-/* || Media queries  */
-@media only screen and (max-width:780px) {
-    :root {
-        font-size: 50%;
-    }
-
-    .home-container {
-        grid-template-rows: 10rem 1fr 20rem;
-    }
-
-    .navbar {
-        height: 10rem;
-    }
-}
-
 
 @media only screen and (max-width:620px) {
 
     :root {
+        font-size: 55%;
+    }
+
+    .home-navbar {
+        height: 20rem;
+        flex-wrap: wrap;
+        gap: 1rem;
+    }
+
+    .home-navbar-links-container {
+        gap: 3rem;
+    }
+}
+
+@media only screen and (max-width:320px) {
+
+    :root {
         font-size: 50%;
     }
 
-    .navbar-logo {
-        display: none;
+    .home-navbar {
+        height: 25rem;
+        gap: 3rem;
     }
 
-    .home-container {
-        grid-template-rows: 20rem 1fr 25rem;
+    .home-navbar-links-container {
+        gap: 5rem;
     }
-
-    .navbar {
-        height: 20rem;
-    }
-
 }
